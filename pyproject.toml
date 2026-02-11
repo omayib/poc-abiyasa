@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abiyasa"
+version = "0.1.0"
+description = "A Python package for Gamelan music notation processing and encoding"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["gamelan", "music", "notation", "gspn", "kepatihan", "balungan"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "pandas>=1.3.0",
+    "requests>=2.25.0",
+    "pdfplumber>=0.7.0",
+    "pymupdf>=1.19.0",
+    "fonttools>=4.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=0.950",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/abiyasa"
+Documentation = "https://abiyasa.readthedocs.io"
+Repository = "https://github.com/yourusername/abiyasa"
+"Bug Tracker" = "https://github.com/yourusername/abiyasa/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["abiyasa*"]
+
+[tool.setuptools.package-data]
+abiyasa = ["data/*.json"]

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Glyph Map Viewer - Balungan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 40px;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .stat-label {
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
+
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .controls {
+            padding: 30px 40px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        input[type="text"], select {
+            padding: 8px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        input[type="range"] {
+            width: 200px;
+        }
+
+        .table-container {
+            padding: 40px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: middle;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .glyph-preview {
+            width: 120px;
+            height: 120px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fafafa;
+            overflow: hidden;
+        }
+
+        .glyph-preview svg {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .glyph-name {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .unicode-val {
+            font-family: 'Courier New', monospace;
+            color: #764ba2;
+            font-weight: 600;
+        }
+
+        .character {
+            font-size: 2em;
+            text-align: center;
+            color: #333;
+        }
+
+        .index {
+            font-weight: bold;
+            color: #999;
+        }
+
+        .empty-glyph {
+            color: #999;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .export-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .export-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #667eea;
+        }
+
+        .loading h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            margin: 20px auto;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .table-container {
+                padding: 20px;
+            }
+
+            .glyph-preview {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔤 Font Glyph Map Viewer</h1>
+            <p>CEEECP+Balungan Font Analysis</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-label">Total Glyphs</div>
+                    <div class="stat-value" id="totalGlyphs">13</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">With Unicode</div>
+                    <div class="stat-value" id="unicodeGlyphs">12</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Visible</div>
+                    <div class="stat-value" id="visibleGlyphs">11</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label>Search:</label>
+                <input type="text" id="searchInput" placeholder="Glyph name, Unicode, or character...">
+            </div>
+            <div class="control-group">
+                <label>Preview Size:</label>
+                <input type="range" id="sizeSlider" min="60" max="200" value="120">
+                <span id="sizeValue">120px</span>
+            </div>
+            <button class="export-btn" onclick="exportToCSV()">Export to CSV</button>
+            <button class="export-btn" onclick="exportToJSON()">Export to JSON</button>
+        </div>
+
+        <div class="table-container">
+            <table id="glyphTable">
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Glyph Name</th>
+                        <th>Glyph Name (alias)</th>
+                        <th>Unicode (Hex)</th>
+                        <th>Unicode (Dec)</th>
+                        <th>Character</th>
+                        <th>Visual Preview</th>
+                    </tr>
+                </thead>
+                <tbody id="glyphTableBody">
+                    <tr><td colspan="6" class="loading">
+                        <div class="spinner"></div>
+                        <h3>Loading Glyph Data...</h3>
+                        <p>Fetching glyph_map.json</p>
+                    </td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let glyphData = [];
+        let filteredData = [];
+
+        // Load glyph data from JSON file python -m http.server 8000
+        async function loadGlyphData() {
+            try {
+                const response = await fetch('map_balungan.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                glyphData = await response.json();
+                filteredData = [...glyphData];
+
+                // Update stats
+                updateStats();
+
+                // Initial render
+                renderTable();
+
+                console.log(`✓ Loaded ${glyphData.length} glyphs from JSON file`);
+            } catch (error) {
+                console.error('Error loading glyph data:', error);
+                document.getElementById('glyphTableBody').innerHTML = `
+                    <tr><td colspan="6" class="no-results">
+                        <h3>Error Loading Glyph Data</h3>
+                        <p>Could not load glyph_map.json</p>
+                        <p>Error: ${error.message}</p>
+                        <p>Make sure the JSON file is in the same directory as this HTML file.</p>
+                    </td></tr>
+                `;
+            }
+        }
+
+        function updateStats() {
+            const withUnicode = glyphData.filter(g => g.unicode_dec !== null).length;
+            const withPaths = glyphData.filter(g => g.svg_path).length;
+            document.getElementById('totalGlyphs').textContent = glyphData.length;
+            document.getElementById('unicodeGlyphs').textContent = withUnicode;
+            document.getElementById('visibleGlyphs').textContent = withPaths;
+        }
+
+        function createSVG(pathData, bounds) {
+            if (!pathData || !bounds) {
+                return '<div class="empty-glyph">Empty</div>';
+            }
+
+            const [xMin, yMin, xMax, yMax] = bounds;
+            const width = xMax - xMin;
+            const height = yMax - yMin;
+            const viewBox = `${xMin} ${yMin} ${width} ${height}`;
+
+            return `
+                <svg viewBox="${viewBox}" xmlns="http://www.w3.org/2000/svg">
+                    <path d="${pathData}" fill="#333" transform="scale(1, -1) translate(0, ${-(yMax + yMin)})"/>
+                </svg>
+            `;
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('glyphTableBody');
+            tbody.innerHTML = '';
+
+            if (filteredData.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="no-results">No glyphs match your search</td></tr>';
+                return;
+            }
+
+            filteredData.forEach(glyph => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="index">${glyph.index}</td>
+                    <td class="glyph-name">${glyph.glyph_name}</td>
+                    <td class="glyph-name">${glyph.aliases}</td>
+                    <td class="unicode-val">${glyph.unicode_hex}</td>
+                    <td>${glyph.unicode_dec !== null ? glyph.unicode_dec : 'N/A'}</td>
+                    <td class="character">${glyph.character || '-'}</td>
+                    <td>
+                        <div class="glyph-preview">
+                            ${createSVG(glyph.svg_path, glyph.bounds)}
+                        </div>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function filterGlyphs(searchTerm) {
+            const term = searchTerm.toLowerCase();
+            filteredData = glyphData.filter(glyph => {
+                return glyph.glyph_name.toLowerCase().includes(term) ||
+                       glyph.unicode_hex.toLowerCase().includes(term) ||
+                       glyph.character.includes(term) ||
+                       (glyph.unicode_dec && glyph.unicode_dec.toString().includes(term));
+            });
+            renderTable();
+        }
+
+        function updatePreviewSize(size) {
+            document.querySelectorAll('.glyph-preview').forEach(preview => {
+                preview.style.width = size + 'px';
+                preview.style.height = size + 'px';
+            });
+            document.getElementById('sizeValue').textContent = size + 'px';
+        }
+
+        function exportToCSV() {
+            const headers = ['Index', 'Glyph Name','Glyph Name (aliases)', 'Unicode Hex', 'Unicode Dec', 'Character'];
+            const rows = glyphData.map(g => [
+                g.index,
+                g.glyph_name,
+                g.aliases,
+                g.unicode_hex,
+                g.unicode_dec !== null ? g.unicode_dec : '',
+                g.character
+            ]);
+
+            const csv = [headers, ...rows]
+                .map(row => row.map(cell => `"${cell}"`).join(','))
+                .join('\n');
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'glyph_map.csv';
+            a.click();
+        }
+
+        function exportToJSON() {
+            const json = JSON.stringify(glyphData, null, 2);
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'glyph_map.json';
+            a.click();
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            filterGlyphs(e.target.value);
+        });
+
+        document.getElementById('sizeSlider').addEventListener('input', (e) => {
+            updatePreviewSize(parseInt(e.target.value));
+        });
+
+        // Load data when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            loadGlyphData();
+        });
+    </script>
+</body>
+</html>

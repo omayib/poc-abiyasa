@@ -1,0 +1,4861 @@
+[
+  {
+    "title": "Sampak Manyura Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/fec05d5e-2b3b-49d9-b252-cd0265504da0/file_downloaded",
+    "lines": "4-6,8-10",
+    "filename": "11fb095f-4d60-4613-9fd2-db27eb1c3083",
+    "identifier": {
+      "structure": "Sampak",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-6,8-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-6,8-10"
+      }
+    ]
+  },
+  {
+    "title": "Sampak Nem Laras Slendro Pathet Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/ed13243a-3908-445d-9229-e613ecd1b65c/file_downloaded",
+    "lines": "4-6,8-10",
+    "filename": "8d3eabdf-8fad-4da8-a573-ad0104d141e2",
+    "identifier": {
+      "structure": "Sampak",
+      "laras": "Slendro",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-6,8-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-6,8-10"
+      }
+    ]
+  },
+  {
+    "title": "Sampak Sanga Laras Slendro Pathet Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/a37fb277-beb3-4d77-9de0-07535ed885a8/file_downloaded",
+    "lines": "4-8,10-13",
+    "filename": "61de7924-d32a-4bea-9e99-466d846ef24b",
+    "identifier": {
+      "structure": "Sampak",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-8,10-13"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-8,10-13"
+      }
+    ]
+  },
+  {
+    "title": "Sampak Tlutur Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/fd0323fd-1be1-47a6-af93-1f10b0adefe4/file_downloaded",
+    "lines": "4-7,9-10",
+    "filename": "795f28f3-ba09-4a88-8ee3-64ea993980df",
+    "identifier": {
+      "structure": "Sampak",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-7,9-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-7,9-10"
+      }
+    ]
+  },
+  {
+    "title": "Sampak Tlutur Laras Slendro Pathet Sanga",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/s9/SampakTlutur!jm.pdf",
+    "lines": "4-8,10",
+    "filename": "bb634ada-9bf0-4ec6-b516-be92a849738c",
+    "identifier": {
+      "structure": "Sampak",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-8,10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-8,10"
+      }
+    ]
+  },
+  {
+    "title": "Srepegan Manyura Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/a4311a32-e443-4185-94b9-0f16b4df3bf8/file_downloaded",
+    "lines": "",
+    "filename": "640ec642-4a4c-4631-b0cd-130d0e91e05b",
+    "identifier": {
+      "structure": "Srepegan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": ""
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Srepegan Nem Laras Slendro Pathet Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/19bb71b5-d705-4457-ac0d-15349cade21b/file_downloaded",
+    "lines": "4-6,8-9,11",
+    "filename": "f6d37283-19c3-47da-9ae9-455a6ed5c8cb",
+    "identifier": {
+      "structure": "Srepegan",
+      "laras": "Slendro",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-6,8-9,11"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-6,8-9,11"
+      }
+    ]
+  },
+  {
+    "title": "Srepegan Sanga Laras Slendro Pathet Sanga",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/s9/Sampak.pdf",
+    "lines": "4-8,10-13",
+    "filename": "e8e5d247-8d35-49df-918b-2e90f77371c6",
+    "identifier": {
+      "structure": "Srepegan",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-8,10-13"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-8,10-13"
+      }
+    ]
+  },
+  {
+    "title": "Srepegan Tlutur Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/9cf5daf2-619f-440f-b67e-87af90b25a02/file_downloaded",
+    "lines": "5-7,9",
+    "filename": "1ac889cd-bffd-4143-bbd1-202585161ad4",
+    "identifier": {
+      "structure": "Srepegan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-7,9"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-7,9"
+      }
+    ]
+  },
+  {
+    "title": "Srepegan Tlutur Laras Slendro Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/cff9291e-46c1-4ab5-bdcc-fb8ae8e94c45/file_downloaded",
+    "lines": "5-7,9-10",
+    "filename": "ab9f5dd5-85db-431d-8bed-074220e1e146",
+    "identifier": {
+      "structure": "Srepegan",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-7,9-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-7,9-10"
+      }
+    ]
+  },
+  {
+    "title": "Ayak-Ayakan Manyura Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/6d8813b3-e415-40a5-8b7d-5caf17c23386/file_downloaded",
+    "lines": "4-6,8-9,11",
+    "filename": "b4340b96-e6e5-45da-af55-973b91ef50f7",
+    "identifier": {
+      "structure": "Ayak-Ayakan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-6,8-9,11"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-6,8-9,11"
+      }
+    ]
+  },
+  {
+    "title": "Ayak-Ayakan Nem Laras Slendro Pathet Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/de97774e-04f6-41a9-9257-c2cdb923c3f9/file_downloaded",
+    "lines": "5-8,11",
+    "filename": "7da33369-24ed-42d5-b0d0-ca370f45105e",
+    "identifier": {
+      "structure": "Ayak-Ayakan",
+      "laras": "Slendro",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-8,11"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-8,11"
+      }
+    ]
+  },
+  {
+    "title": "Ayak-Ayakan Pamungkas Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/4b78d958-a69e-4d08-a2c6-d0bcaef96e9c/file_downloaded",
+    "lines": "p1:5-7,9-11,p2:1,2,4",
+    "filename": "a749da22-10b2-43a7-bfa3-7c71253b0f07",
+    "identifier": {
+      "structure": "Ayak-Ayakan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "p1:5-7,9-11,p2:1,2,4"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "p1:5-7,9-11,p2:1,2,4"
+      }
+    ]
+  },
+  {
+    "title": "Ayak-Ayakan Sanga Laras Slendro Pathet Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/7d22578e-4d35-496d-8670-b72569859b0b/file_downloaded",
+    "lines": "7-10",
+    "filename": "c48609d4-910a-4ddf-b481-2ab4f7bb16c1",
+    "identifier": {
+      "structure": "Ayak-Ayakan",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "7-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "7-10"
+      }
+    ]
+  },
+  {
+    "title": "Ayak-Ayakan Umbul Donga Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/fd7678b5-5360-4f6a-8d72-63508beb8b7d/file_downloaded",
+    "lines": "4-6,8-10",
+    "filename": "b1f4cbff-d2d5-4f89-8b07-6b075ba84c49",
+    "identifier": {
+      "structure": "Ayak-Ayakan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-6,8-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-6,8-10"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Kuda Nyongklang Laras Pelog Pathet Barang",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/3a03003d-53ac-493f-b61f-e3b12b03f808/file_downloaded",
+    "lines": "5,6,8-15",
+    "filename": "8a61adaa-98ad-4965-9aed-22fcd150b13e",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5,6,8-15"
+      },
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "5,6,8-15"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5,6,8-15"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Maesa Kurda Laras Slendro Pathet Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/74ee5af7-cf86-41a5-be4f-765634b2d81e/file_downloaded",
+    "lines": "5-9",
+    "filename": "06b2ae2a-56b3-47b2-9bae-07efcf502597",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-9"
+      },
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "5-9"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-9"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Manyar Sewu Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/7dfc6a92-7064-40ae-a2f7-28b3fdae7805/file_downloaded",
+    "lines": "4-7",
+    "filename": "4f8afe01-c7ee-4515-bf83-3fbeece1eed9",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-7"
+      },
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "4-7"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-7"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Rena Rena Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/183986cf-a8ea-4761-b21b-bd141d34a8e5/file_downloaded",
+    "lines": "4-8",
+    "filename": "4791556f-b34a-4ca1-9b8a-e2ac586c1712",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-8"
+      },
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "4-8"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-8"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Sarung Jagung Laras Pelog Pathet Barang",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/aab72981-9ee0-4c6f-824f-0b363bf6e49e/file_downloaded",
+    "lines": "5,6,8-13",
+    "filename": "b1e9f0f9-3a7c-4769-8b29-b51405ed4cab",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5,6,8-13"
+      },
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "5,6,8-13"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5,6,8-13"
+      }
+    ]
+  },
+  {
+    "title": "Bubaran Arum Arum Laras Pelog Pathet Barang",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/de262cda-d78f-4879-abab-05792dfe09c0/file_downloaded",
+    "lines": "4-7",
+    "filename": "f0f9e518-5c29-4e93-ad03-0094b0137a29",
+    "identifier": {
+      "structure": "Bubaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-7"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-7"
+      }
+    ]
+  },
+  {
+    "title": "Bubaran Kembang Pacar Laras Pelog Pathet Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/3416abee-df1b-49bc-bd6d-32f1e8425a84/file_downloaded",
+    "lines": "5-8",
+    "filename": "b0a67d5a-25cb-4339-b18f-05b9db27cd17",
+    "identifier": {
+      "structure": "Bubaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-8"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-8"
+      }
+    ]
+  },
+  {
+    "title": "Bubaran Purwaka Laras Pelog Pathet Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/34ff506d-9079-488e-b8ff-96246e22f5d6/file_downloaded",
+    "lines": "5-8",
+    "filename": "0c3abd7e-0aba-4fe4-820c-346b050d4a56",
+    "identifier": {
+      "structure": "Bubaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-8"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-8"
+      }
+    ]
+  },
+  {
+    "title": "Bubaran Sembunggilang Laras Slendro Pathet Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/55d8d328-b5eb-48cc-b579-6119389df225/file_downloaded",
+    "lines": "5-8",
+    "filename": "76765291-31a1-4720-972b-2488c1ebcdb9",
+    "identifier": {
+      "structure": "Bubaran",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5-8"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5-8"
+      }
+    ]
+  },
+  {
+    "title": "Bubaran Udan Mas Laras Pelog Pathet Barang",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/9feff275-76c0-4d40-827b-418a5bc72476/file_downloaded",
+    "lines": "4-7",
+    "filename": "8ac42c42-df3b-4cc0-9718-5be999ea1739",
+    "identifier": {
+      "structure": "Bubaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-7"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-7"
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Ibu Pretiwi Laras Pelog Pathet Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/78520336-1ea0-4857-9546-da4c5af81663/file_downloaded",
+    "lines": "4-8",
+    "filename": "2a66f141-7739-46a7-9606-a86ca3ee0bd1",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-8"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-8"
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Kinanthi Pawukir Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/6a6a925c-420c-47d2-b434-34879deee282/file_downloaded",
+    "lines": "6,8-10",
+    "filename": "ef80fd31-93b5-4bce-8d6b-87e0845f0194",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "6,8-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "6,8-10"
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Kinanthi Sandhung Laras Slendro Pathet Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/935e0524-0ec2-4496-826d-9e189fbddb01/file_downloaded",
+    "lines": "4-8",
+    "filename": "011ad54e-dd31-4f80-9e52-92cc7bacb3ac",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4-8"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4-8"
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Langen Gita Laras Pelog Pathet Barang",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/6bbdf386-bb7e-49e7-adc1-e6647759be46/file_downloaded",
+    "lines": "6,8-10",
+    "filename": "787617fd-f96b-49d2-a2df-3fb9884d2e4f",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "6,8-10"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "6,8-10"
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Subakastawa Laras Slendro Pathet Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/93327ae5-224f-4538-87f7-097840cd8693/file_downloaded",
+    "lines": "5,7-9",
+    "filename": "10b2f9e6-1e36-4425-b473-17d9365c16fd",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5,7-9"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5,7-9"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kalongking Laras Pelog Nem",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/b068141d-6495-4ae1-9827-c297e6a7594f/file_downloaded",
+    "lines": "4,5",
+    "filename": "6739b4ee-4dfc-4c18-8306-ca68fa3d11d3",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4,5"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4,5"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Mugi Rahayu Laras Slendro Manyura",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/7fa5fbbb-31a8-47fe-9264-b86862cb8303/file_downloaded",
+    "lines": "5,6",
+    "filename": "7f1d6c89-32e7-43a6-92ec-929048122357",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5,6"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5,6"
+      },
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "5,6"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Pariwisata Laras Slendro Sanga",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/92fbd058-6eb2-4d80-87a8-d2fc06c2114f/file_downloaded",
+    "lines": "4,5",
+    "filename": "317ffa0b-e876-4736-bed0-def9c5bae86b",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Sanga"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "4,5"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "4,5"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Santi Mulya Laras Pelog Lima",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/accc09d0-701a-4247-b738-7e15d11eef1a/file_downloaded",
+    "lines": "5,6,8-11",
+    "filename": "e2d33ce2-84a1-4655-9907-0a5b976240ba",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Lima"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "5,6,8-11"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "5,6,8-11"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sumyar Laras Pelog Barang",
+    "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/30ad7f50-2e26-4211-a05c-c58046574d1d/file_downloaded",
+    "lines": "7,8,10-13",
+    "filename": "dfaf31ac-1168-4be6-af9c-63cd97b4b46b",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.17977/um018v6i12023p41-56",
+        "lines": "7,8,10-13"
+      },
+      {
+        "author": "10.1109/ICAMIMIA60881.2023.10427579",
+        "lines": "7,8,10-13"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Angleng Pelog Barang",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Angleng.pdf",
+    "lines": "4,5",
+    "filename": "102434d5-2d45-459e-a8b0-398cd289eb5f",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "4,5"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Bendrong Pelog Nem",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/Bendrong.pdf",
+    "lines": "4-8",
+    "filename": "a1e5dd10-bd61-4f23-bb5e-338120907639",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "4-8"
+      },
+      {
+        "author": "10.1109/ACCESS.2024.3457880",
+        "lines": "4-8",
+        "numeric_seq": [5, 3, 5, 2, 5, 2, 5, 3, 5, 3, 5, 2, 5, 2, 5, 6, 4, 2, 4, 5, 2, 4, 5, 6, 4, 2, 4, 5, 2, 4, 5, 6, 2, 3, 2, 1, 6, 5, 2]
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Kandhang Bubrah Pelog Nem",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/KandhangBubrah.pdf",
+    "lines": "5-8",
+    "filename": "496de222-ac9a-4ca1-b8e3-1095d2ce2574",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "5-8"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Kedhu Pelog Barang",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Kedhu.pdf",
+    "lines": "4-7",
+    "filename": "4868dd3b-666a-4cab-86ac-6386ab12b720",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "4-7"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Lasem Bubrah Pelog Nem",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Lasem.pdf",
+    "lines": "5-8",
+    "filename": "358adf6d-bf2b-434d-98a8-4a7c8bb139bd",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "5-8"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Ricik Ricik Slendro Manyura",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/sm/Ricik2.pdf",
+    "lines": "4-7",
+    "filename": "f2fc161d-8395-4887-802e-dbacaedf19cb",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "lines": "4-7"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Asmaradana",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Asmaradana.pdf",
+    "lines": "p2:2,9,16,24",
+    "filename": "8f73e386-da66-4724-95f1-269bc32b1fd5",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p2:2,9,16,24",
+        "reference_gspn": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Bayangkare",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Bayangkare.pdf",
+    "lines": "2,4,6,8,10,12,14",
+    "filename": "a6314124-b235-4f31-acad-2c490b861e87",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "2216a01230561b61b2b3b653561b5606663356053203561b653112121326123",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,4,6,8,10,12,14",
+        "reference_gspn":"00002216a0021x2y6ax3y300003561b001b1b02bx3by2b000001bAx2bA6y5x0A3A1by01bx002by6000005x6y3x1by01b1b01bx2by6000006020022x5y566000005630032x1y6ax2A3Ay1002106ax2y2006a1x2y2x1A3Ay3"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Biwadha Mulya",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/BiwadaMulya.pdf",
+    "lines": "2,6,10,14,18,22",
+    "filename": "0058e212-5e9f-44b3-8459-4e8b1cc28ab3",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "050603020302012600601b2b1b635320126a2203565301320126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
+      },
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
+
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Dhempo",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Dhempo.pdf",
+    "lines": "p1:2,6,10,14,18,22,p2:2,4,6,8,10,12,16,18",
+    "filename": "e43f3383-d3c9-49a8-a1e5-a0f6c93e518d",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "330565321b2b1b6353266002b3b2b1b03b02b01b0602b03b02b01b56532126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,6,10,14,18,22,p2:2,4,6,8,10,12,16,18",
+        "reference_gspn": "0000330A3A5x06y1bBx2bB6Ay302Ax5A3y2001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay302Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by0003b3b3bAx5bAy2b003bAx5bAy3b01bAx2bA1by6000061bAx2bAy2bAx3bAy3b003b2bx0A1bAy3bx2by1b0056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      },
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "p1:2,6,10,14,18,22,p2:2,4,6,8,10,12,16,18"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Eling-Eling Suralaya",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Eling2Suralaya.pdf",
+    "lines": "2-7",
+    "filename": "5a76b7e9-f28e-4a5b-bdcc-3ccc9dad5252",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "0106a030205030106a0302030205030106a0503050205030106a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      },
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "2-7",
+        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Ginonjing",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Ginonjing.pdf",
+    "lines": "2,6,10,14,18,22",
+    "filename": "36c7e3fc-e6df-4fd9-a099-413b2770d185",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "0506050305010506a05020501050305060503050605030502",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
+      },
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Gonjing Miring",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/GonjingMiring.pdf",
+    "lines": "2,7,12,17,22,27",
+    "filename": "814e452b-ec6f-4c46-a8c7-1a18bc53672a",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "2b2b002b3b2b1b65636532121313121213131266002b1b6535213216a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,7,12,17,22,27",
+        "reference_gspn": "002b2b002bAx3bAy1bx02by3b3b01bAx3bA5bB3bB2bAy2by1by065x0A3Ay6x1bB6B5Ay3003Ax6Ay5x0A6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a003Ax6Ay5x0A6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a003Ax6Ay5x0A6Ay3Ax5A3y2x0A5A6y00660A6A1bx02by2bAx3bAy1bx0A2bAy6Ax1bA6y5003Ax5Ay602x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Jongkeri",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Jongkeri.pdf",
+    "lines": "p1:2,10,18,26,P2:2,7,12,17,22,27",
+    "filename": "bde654fc-0dc2-4a27-a8ce-6fb31abc9c0c",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "66002b3b2b1b3b2b636532532135325321353266002b3b2b1b3b2b651b653",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,10,18,26,P2:2,7,12,17,22,27",
+        "reference_gspn":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
+      },
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "p1:2,10,18,26,P2:2,7,12,17,22,27",
+        "reference_gspn":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kate-kate",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Kate2.pdf",
+    "lines": "p1:2,6,10,18,22,p2:2,4,6,8,10,12",
+    "filename": "75c4e469-53e9-4112-ba2b-ea106cbb0458",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "006035321b2b1b6353266002b3b2b1b3b2b636532126a1353256532126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,6,10,18,22,p2:2,4,6,8,10,12",
+        "reference_gspn": "0000666Ax1bAy5x06y3Ax6Ay5x0A3Ay2Ax5A3y2001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay302Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y20032x06ay6aAx2Ay10035x0A6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kawuri",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Kawuri.pdf",
+    "lines": "2,4,6,8,10,12,14,16",
+    "filename": "194b8912-f04f-41cc-a147-c2fd36b0efc1",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "33003123653201261b1b0023213b2b65223203206a12305651b653035635326a1232126",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,4,6,8,10,12,14,16",
+        "reference_gspn":"00006a6a0A6aA2x3y032x0A1Ay1x2A3Ay30065x6y3x1y201213216a000065Ax6Ay3Ax1bAy1b01b01bx6y2bx0A3bAy1b0001b02bx6y5x6y202x1y3x0A5Ay2000000000201x0A5Ay5x6y5x03y0061b2b3b06x3y5x6y6x1bA5Ay3001b1b02bx1bA6Ay1bx6y053x6y022006a2x3y05Ax6Ay3x65A6Ay21x0A6aAy2x1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kijing Miring",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/KijingMiring.pdf",
+    "lines": "2,6,10,14,18,22",
+    "filename": "494e1fc4-abfe-45cf-9f7e-4452b1905501",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "00602b3b2b1b3b2b6365320503050205030502033036351b6213216a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn": "0000660A6A1bx02by3b3b01bAx3bA2by2bx1bx06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y20000555Ax6Ay3005603Ax5A3y20066x1bA2bAy6x1bB6B5Ay3001bAx2bAy603Ax5A3y2x1A2A3y00330A3A5x06y1b1bx2bA3bAy1bx2bB1bB6Ay5001bAx2bAy602x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kutut Manggung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/KututManggung.pdf",
+    "lines": "2,6,10,14,18,22",
+    "filename": "98491709-71b6-472e-87d1-a049130f4130",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "3632565361b3b2b6321363263563561b651b63232565361b3b2b6321",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn": "000065Ax6Ay3Ax5Ay20056x1bA2bAy6x1bB6B5Ay30061bx2bA3bAy3bx0A5bAy2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1bx02by65x0A3Ay3x5A6Ay60032x0A3Ay1x6aA2Ay20056x1bA2bAy6x1bB6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay1"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Lagu",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Lagu.pdf",
+    "lines": "p1:2,6,10,14,18,22,p2:2,6",
+    "filename": "ec26888d-bf98-4156-ae86-ef0fcc40fb13",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "1b1b001b1b2b1b3b2b653561b3b2b6535651b2b1b653236535323155065323",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,6,10,14,18,22,p2:2,6",
+        "reference_gspn": "001b1b001bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by01b2bx0A3bAy1bAx2bA6y5x03y3b3b01bAx3bA2by2bx1by01b2bx0A3bAy1bAx2bA6y50055x0A3Ay3x5A6Ay5001b2bx0A3bAy1bAx2bA1by6x1b2by65x0A3Ay6x1bB6B5Ay30000660A6Bx1bB5x06y32x0A1Ay3Ax5A3A2Ay10000550A6A6x1b2by65x0A3Ay6x1bB6B5Ay3"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Langen Pradangga",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/LangenPradangga.pdf",
+    "lines": "2-7",
+    "filename": "0a16b328-d5d1-460f-9b3b-f6cb2d56b35f",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "1b1b003b2b1b63561b653261b3b2b6321612321263300332161236532",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn":"00001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay100006a123x05A6Ay2Ax5Ay301Ax2A1y6ax1A2Ay300660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay1006a1x0A2Ay2x1A3Ay3003Ax6Ay5x0A6Ay3Ax5A3y2"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Loro-loro",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Loro2.pdf",
+    "lines": "2-7",
+    "filename": "044c9cea-0465-4c12-be0d-b10c9c91815c",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "222356532216a35322223565352532b3b2b1b2b62b1b3b2b6533056356",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "0000220A2A3x05y66x1bA2bAy6x1bB6B5Ay3002Ax5Ay301Ax2A1y6a0035x0A6Ay3Ax5Ay320000220A2A3x05y66x1bA2bAy6x1bB6B5Ay3005Ax6Ay2005Ax6Ay3001b1bx0A6Ay6x1bA2bAy2bx1by02bA3bA6002bA3bA1bx02bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00333Ax1bAy1bx02bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA1by6"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Mirip",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Mirip.pdf",
+    "lines": "p2:2-5",
+    "filename": "dc768851-e023-4a1e-a44b-9d630fc99ddd",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "6561b652361236561b3b2b1b6353261235653",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p2:2-5",
+        "reference_gspn": "00003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ax30000330A3A6x01by1b1bx0A6Ay6x1bA2bAy1b001b2bx0A3bAy1bAx2bA1by6x1b2by1bAx6Ay303Ax5A3y2006a1x0A2Ay2x1A3Ay3005606x1bB6B5Ay3"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Moncer",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Moncer.pdf",
+    "lines": "2,7,12,17",
+    "filename": "3166e225-bb68-4d5c-b682-1e99ec3b034e",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "0063561b63561b65323235653216a5a3a5a6a16a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,7,12,17",
+        "reference_gspn": "0000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1bx02by65x0A6Ay3Ax5A3y20000220Ax2Ay3x05y6603Ax5A3y2001bAx2bAy606x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Lagrang Nglarirasa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Nglarirasa.pdf",
+    "lines": "p1:2,5,8,11",
+    "filename": "dbf33e14-a503-4618-8367-665ee1bd1bf8",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "3132313261b3b2b63561b653112132653632",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,5,8,11",
+        "referece_gspn": "00003356x1b2by63x2y3x1y20061b02bx3by2bx3by06503x6y600001b653x1y032x1y2x3y100330605x6A5A6y210302"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Patrem",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Patrem_ladrang.pdf",
+    "lines": "2-7",
+    "filename": "e49465c1-4aae-4cab-9897-2f5fa883f3af",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "1b1b001b1b2b1b3b5b3b2b01b2b63561b65326561b65326561b652365213216a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "00001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy1b00003b3b3bAx5bAy2b003bBx5bB3bAy3b01bAx2bA1by6006Ax5Ay3Ax6A1bB2bB3Ay3bx0A2bAy1bx02by1bAx6Ay303Ax5A3y20061bx2bA3bAy3bx0A2bAy1bx02by1bAx6Ay303Ax5A3y200003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Prasaja",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Prasaja.pdf",
+    "lines": "2-7",
+    "filename": "946a3145-19b9-4e18-8999-51b540bd945f",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "330561b2b1b3b5b3b2b01b2b600601b2b1b635320126a2203565365213216a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "0000330A3A6x01by1b1bx0A6Ay6x1bA2bAy2bx1by0003b3b3bAx5bAy2b003bBx5bB3bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Bx5B3Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6x1bB6B5Ay30065x0A6Ay2x0A3Ay1003Ax5Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Santalaya",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Sontoloyo.pdf",
+    "lines": "2-7",
+    "filename": "52dba855-7334-4b12-938b-5f05d06ddbb9",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "0025065333250352002365320023560503506532661b2b3b2b1b6",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "0000220A2A3x05y66x1bA2bAy6x1bB6B5Ay30000660A1bA2bx03by1bBx2bB6Ay302Ax5A3y20000221Ax3Ay3005603Ax5A3y20000220A2A3x05y66x0A5Ay5x1bA6Ay6x5y05Ax6Ay3x0A5Ay5x5A6Ay5006603Ax5A3y2000066Ax1bAy1bAx2bAy2b003bAx5bAy3b01bAx2bA1by6"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sawunggaling",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Sawunggaling.pdf",
+    "lines": "2,11,20,29",
+    "filename": "dac5710f-9b22-4612-a3e7-fcfca6df591c",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "33003353561b6532355001b65321232126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,11,20,29",
+        "reference_gspn": "0000333Ax5Ay30056x1bA2bAy6x1bB6B5Ay30000666Ax1bAy6x1b2by65x0A3Ay6x5y3x05y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x56y2Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sekar Gadhung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SekarGadhung.pdf",
+    "lines": "p1:2,6,10,14,p2:2",
+    "filename": "8e34a691-ee1e-4507-9954-33568c70e4a0",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "03050302030103060305030203010302030603050301b0306",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,6,10,14,p2:2",
+        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6A2Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax5A3A1bAy1b00001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sigramangsah",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Sigramangsah.pdf",
+    "lines": "p2:2,7,12,17,22,27",
+    "filename": "5f578bae-b717-418b-8290-e7bcc44ebf54",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "330033563561b653216a1316a1216a1316a1255001b65365213216a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p2:2,7,12,17,22,27",
+        "reference_gspn": "0000330A3A6x1b2bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay302Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a361b2bx1bA6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a361b2bx1bA6Ay3Ax5A3y2x0A3A5x00550A5A6x01by1bAx2bAy603Ax6A5y30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Biwadha",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriBiwada.pdf",
+    "lines": "2-7",
+    "filename": "20fd8584-7bc6-4955-9c6b-4b0ea15e7ace",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "0035653200235653003561b563561b65325653212622005321",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "0000330A3A5x06y1bBx2bB6Ay302Ax5A3y20000220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30000330A3A5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by65x0A3Ay6Ax1bA6A5Ay30056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6ax0A1A2y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay1"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Katon",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Srikaton.pdf",
+    "lines": "2,6,10,14",
+    "filename": "8354ae3a-c790-4597-81f1-addb635f4916",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "0506050301b06050302010206a02010206a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,6,10,14",
+        "reference_gspn": "00550066x0A1bA2by1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay3001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay3003b3b01bAx3bA2by2bx1by2bAx3bA3bA5bAy2bx0A3bAy1bAx2bA1by6003b3b01bAx3bA2by2bx1by2bAx3bA3bA5bAy2bx0A3bAy1bAx2bA1by6"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Kawuryan",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriKawuryan.pdf",
+    "lines": "2-7",
+    "filename": "68f56584-0330-4508-8fc4-458559679b72",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "003b2b01b2b63561b653256532126a3300653261b3b2b632103020106a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by3bAx5bAy2bx0A3bAy1bAx2bA1by6006Ax5Ay3x6A1bAy1bx6A2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx02bA3bAy2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Nata Wibawa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriNataWibawa.pdf",
+    "lines": "2-7",
+    "filename": "4cc87e0b-31b1-44f7-b736-d07ad98d2b84",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "006066561b1b003b2b653312532135320126a3300332161232126",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "0000660A6Bx1bBy5x06y66x0A5Ay506x01by001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay301Ax2A1y6ax1A2A3y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay10056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Rinenggo",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriRinengga.pdf",
+    "lines": "2-7",
+    "filename": "453777aa-65c4-4c99-bbac-c36d02aab74f",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "3561b65321b2b1b62126a3300653253213216a2203565365320126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "00003b3b3bAx2bAy1bx02by1bAx6Ay303Ax5A3y2001b2bx0A3bAy1bAx2bA1by6002Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx02by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y2005Ax6Ay303Ax5A3A2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay3001bA3bA2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Yatna",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriYatna.pdf",
+    "lines": "2,6,10,14,18,22",
+    "filename": "81d3f4c0-b208-48be-8aa0-deeb7bf32402",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "00602b3b2b1b3b2b653561b001b0661b2b6321353261b3b2b632103020106a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,6,10,14,18,22",
+        "reference_gspn": "0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y5x03by3b3b01bAx3bA5bB3bB2bAy1b00001b1b1bAx2bAy1bx06y66x0A1bAy1bx6A2bAy2b001bBx2bB6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Tamaswara",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Tamaswarsa.pdf",
+    "lines": "2-7",
+    "filename": "2154efad-aebb-4b91-aab5-131c24fa60a6",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "1b1b00661b2b3b2b632126a01b3b2b6321213253213300653256532126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "00001b1b1bAx2bAy1bx06y66x0A1bAy1bx6A2bAy2b00001b1b3bBx2bB1bB6By3001Ax2Ay301Ax2A1y6a0061bx2bA3bAy3b0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay303Ax5A3A2Ay1x0A2A3y00660A1bA2bx03by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Tebu Sak Uyun",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/TebuSakUyun.pdf",
+    "lines": "p1:2,6,10,14,18,22",
+    "filename": "df3512f5-4a90-4b05-aa01-7e7270117fc2",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "3b2b6532651b2b1b63523220612321132532133561b65365213216a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "p1:2,6,10,14,18,22",
+        "sequence_gspn": "003b2b01bAx2bA6y5050503x2A5Ay5x06y23x2y3x5y601bx6y5x0A3Ay6x1bA5Ay3002202x6y603x5y3x0A2Ay5x0A3Ay20061bx2by03b2b01bx6y306Ax5A3A2Ay100003Ax2Ay356x1b2by65x0A3Ay5x0A6Ay30065x0A6Ay2x1A6Ay103x2A1Ay2x0A3Ay1Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Teja",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Teja.pdf",
+    "lines": "2-7",
+    "filename": "c4d4879c-1f2e-4f5a-9eeb-114fe27c40f0",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "1b1b001b1b2b1b3b2b653561001b2b3b2b1b63561b65236601b653212163532",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2-7",
+        "reference_gspn": "00001b1b0A1bA1b001b1bx0A6Ay6x1bA2bAy1b001b2bx0A3bAy1bx2bA6Ay5x3y03b3b01bAx3bA2by2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ay30000660A1bA1bx02by1bAx6Ay303Ax5A3y20012x0A3Ay1Ax2A1y6a0035x0A6Ay3Ax5A3y2"
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Wilujeng",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Wilujeng.pdf",
+    "lines": "2,10,18,26",
+    "filename": "344de1e8-28e5-4cd6-bdde-60f8c071ef3b",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan_gspn": "00601b51b63561b653266001b51b61b1b320126a",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
+        "lines": "2,10,18,26",
+        "reference_gspn": "0000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1x02by1bBx2bB6Ay3x0A5Ay2Ax5A3y20000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Blandaran",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/Blandaran.pdf",
+    "lines": "5,6",
+    "filename": "2557719b-3d10-4db1-afa1-ec262f4911c7",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2024.3457880",
+        "lines": "5,6",
+        "numeric_seq": [1, 5, 1, 2, 1, 3, 1, 6, 1, 6, 1, 2, 1, 3, 1, 5]
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Gula Klapa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/GulaKlapa.pdf",
+    "lines": "5-8",
+    "filename": "03b26ccf-5527-4f32-a00a-6e0beb481f59",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2024.3457880",
+        "lines": "5-8",
+        "numeric_seq": [6, 5, 6, 1, 3, 2, 6, 5, 6, 5, 6, 1, 3, 2, 6, 5, 6, 3, 2, 1, 5, 3, 2, 1, 5, 5, 6, 5, 6, 1, 6, 5]
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Pambagyarjo",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/Pambagyarja.pdf",
+    "lines": "4-7",
+    "filename": "93af2d24-712a-4cae-ad11-38e138959650",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2024.3457880",
+        "lines": "5-7",
+        "numeric_seq": [2, 3, 2, 1, 2, 3, 2, 1, 3, 5, 3, 2, 1, 6, 3, 5, 6, 6, 7, 6, 5, 3, 2, 3, 9, 9, 3, 5, 6, 1, 2, 1, 5, 6, 1, 2, 1, 6, 3, 5, 2, 4, 5, 4, 2, 1, 6, 5]
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Sayuk Karya",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/SayukKarya.pdf",
+    "lines": "5,6",
+    "filename": "f8d94b93-cec8-4d2b-9c93-51e731e32f7a",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2024.3457880",
+        "lines": "5,6",
+        "numeric_seq": [3, 5, 3, 5, 3, 5, 2, 3, 6, 5, 6, 5, 6, 5, 3, 2]
+      }
+    ]
+  },
+  {
+    "title": "Lancaran Suwe Ora Jamu",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p6/SuweOraJamu.pdf",
+    "lines": "4,5",
+    "filename": "157a2cca-025a-4885-bd79-ad1afcd14f41",
+    "identifier": {
+      "structure": "Lancaran",
+      "laras": "Pelog",
+      "pathet": "Nem"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2024.3457880",
+        "lines": "4,5",
+        "numeric_seq": [2, 3, 2, 3, 1, 2, 3, 2, 3, 5, 6, 5, 4, 2, 1, 6]
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Asmaradana",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Asmaradana.pdf",
+    "lines": "p2:2,9,16,24,p3:2,8,14,20,26,p4:2,8",
+    "filename": "8f73e386-da66-4724-95f1-269bc32b1fd5",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "p2:2,9,16,24,p3:2,8,14,20,26,p4:2,8",
+        "reference_gspn": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a000000006a123561bBx6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay100003b3b0A3bBx5bBy2003b3b01bA3bA2b2bx1by000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000030A3Bx5By2003Ax5Ay301Ax2A1y6a005Ax6Ay3005Ax6Ay3001bAx2bAy603x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Branta Mentul",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/BrantaMentul.pdf",
+    "lines": "p1:2,7,12,17,22,27",
+    "filename": "c16bd5ed-3525-4c27-88e2-72c4c41f3107",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "p1:2,7,12,17,22,27",
+        "reference_gspn": "006a1x2A3Ay3x0A5Ay2006a1x2A3Ay3x0A5Ay20056x1bA2bAy6x1bB6B5Ay3001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00330A3A5x06y66x0A5Ay5x6A1bAy6x5A5A5y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Gonjang",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Gonjang.pdf",
+    "lines": "",
+    "filename": "93c62a3d-62c0-4d91-94e4-0d589194fd93",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Gonjing Miring",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/GonjingMiring.pdf",
+    "lines": "",
+    "filename": "814e452b-ec6f-4c46-a8c7-1a18bc53672a",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ayak-ayakan Kaloran",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Kaloran.pdf",
+    "lines": "",
+    "filename": "17a393dd-d8c6-41b2-8094-5a5a7d70b981",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Kate-kate",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Kate2.pdf",
+    "lines": "",
+    "filename": "75c4e469-53e9-4112-ba2b-ea106cbb0458",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Kawuri",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Kawuri.pdf",
+    "lines": "2,4,6,8,10,12,14,16",
+    "filename": "194b8912-f04f-41cc-a147-c2fd36b0efc1",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": "2,4,6,8,10,12,14,16"
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Kijing Miring",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/KijingMiring.pdf",
+    "lines": "",
+    "filename": "494e1fc4-abfe-45cf-9f7e-4452b1905501",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Kinanthi Pawukir",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/KinanthiPawukir.pdf",
+    "lines": "",
+    "filename": "3aeb51ab-a315-454e-9daf-112ccecd5797",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Kinanthi Sandhung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/KinanthiSandhung.pdf",
+    "lines": "",
+    "filename": "32ed79f4-b97a-446a-9868-5056b2b3b013",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Kutut Manggung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/KututManggung.pdf",
+    "lines": "",
+    "filename": "98491709-71b6-472e-87d1-a049130f4130",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Lagu",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Lagu.pdf",
+    "lines": "",
+    "filename": "ec26888d-bf98-4156-ae86-ef0fcc40fb13",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Langen Pradangga",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/LangenPradangga.pdf",
+    "lines": "",
+    "filename": "0a16b328-d5d1-460f-9b3b-f6cb2d56b35f",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Lebdasari",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Lebdasari.pdf",
+    "lines": "",
+    "filename": "80ac45e8-0c53-4b55-9f52-1f5c6a1cb5b3",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Loro-loro",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Loro2.pdf",
+    "lines": "",
+    "filename": "044c9cea-0465-4c12-be0d-b10c9c91815c",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Loro-loro Topeng",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Loro2Topeng.pdf",
+    "lines": "",
+    "filename": "97eb0cf5-5fad-4918-b914-70ac0e54fe55",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Madumurti",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Madumurti.pdf",
+    "lines": "",
+    "filename": "ba17a512-64b1-4520-9a1a-dd6095847aa0",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Manggung Sore",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/ManggungSore.pdf",
+    "lines": "",
+    "filename": "05776277-f9ac-4f3d-a1b3-cefeaf0c3c2e",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Mayar-mayar",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Mayar2.pdf",
+    "lines": "",
+    "filename": "6c8e3bf8-34dc-4b77-a7d6-e72686a210d5",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Mirip",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Mirip.pdf",
+    "lines": "",
+    "filename": "dc768851-e023-4a1e-a44b-9d630fc99ddd",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Moncer",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Moncer.pdf",
+    "lines": "",
+    "filename": "3166e225-bb68-4d5c-b682-1e99ec3b034e",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Merong Montro",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Montro.pdf",
+    "lines": "",
+    "filename": "81af9e7e-0c26-4686-8174-7776392eac9d",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Mugi Rahayu",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/MugiRahayu.pdf",
+    "lines": "",
+    "filename": "c0914788-6d9f-4d9a-8179-878e94af7a36",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Nglarirasa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Nglarirasa.pdf",
+    "lines": "",
+    "filename": "dbf33e14-a503-4618-8367-665ee1bd1bf8",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Koor Gendhing Okrak-okrak",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Okrak2.pdf",
+    "lines": "",
+    "filename": "d0bb7033-e503-4cb1-9788-36ff081f901d",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ayak-ayakan Pamungkas",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Pamungkas.pdf",
+    "lines": "",
+    "filename": "000c5568-aa3d-45bb-9750-a6b8fa1346f4",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Pangrembe",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Pangrembe.pdf",
+    "lines": "",
+    "filename": "64d4b481-3011-40e7-8451-fd3686d73749",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Patrem",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Patrem_ladrang.pdf",
+    "lines": "",
+    "filename": "3894f150-9f18-4ce4-a688-533f391ed903",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Prasaja",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Prasaja.pdf",
+    "lines": "",
+    "filename": "946a3145-19b9-4e18-8999-51b540bd945f",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Pucung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Pucung.pdf",
+    "lines": "",
+    "filename": "1b5cd9db-414e-4568-8da5-eae557e19176",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Pucung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/PucungLadrang.pdf",
+    "lines": "",
+    "filename": "c8bb9a28-82c5-4912-8445-b81115e42fc2",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Pucung Patalon",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/PucungPatalon.pdf",
+    "lines": "",
+    "filename": "30307489-448c-43c2-be18-9bf4acad6cd8",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Puspa Warna",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/PuspaWarna.pdf",
+    "lines": "",
+    "filename": "f7011c32-e900-4c62-af22-1faaa3e46460",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sawunggaling",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Sawunggaling.pdf",
+    "lines": "",
+    "filename": "dac5710f-9b22-4612-a3e7-fcfca6df591c",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sekar Gadhung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SekarGadhung.pdf",
+    "lines": "",
+    "filename": "8e34a691-ee1e-4507-9954-33568c70e4a0",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Sekar Tedja",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SekarTeja.pdf",
+    "lines": "",
+    "filename": "47f5daf4-56d5-4b68-be66-047a6adbc876",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sigramangsah",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Sigramangsah.pdf",
+    "lines": "",
+    "filename": "d695d396-a3bb-4df4-8103-2d54e883ff98",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sontoloyo",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Sontoloyo.pdf",
+    "lines": "",
+    "filename": "9174ff75-b42b-46d8-a714-a0557efff488",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sri Biwadha",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriBiwada.pdf",
+    "lines": "",
+    "filename": "20fd8584-7bc6-4955-9c6b-4b0ea15e7ace",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Sri Kacaryan",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriKacaryan.pdf",
+    "lines": "",
+    "filename": "7224ddf5-3c9a-400f-b8b9-dd145c86a993",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sri Katon",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Srikaton.pdf",
+    "lines": "",
+    "filename": "8354ae3a-c790-4597-81f1-addb635f4916",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sri Kawuryan",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriKawuryan.pdf",
+    "lines": "",
+    "filename": "68f56584-0330-4508-8fc4-458559679b72",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sri Nata Wibawa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriNataWibawa.pdf",
+    "lines": "",
+    "filename": "4cc87e0b-31b1-44f7-b736-d07ad98d2b84",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sri Rinenggo",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriRinengga.pdf",
+    "lines": "",
+    "filename": "453777aa-65c4-4c99-bbac-c36d02aab74f",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Sri Utama",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriUtama.pdf",
+    "lines": "",
+    "filename": "e61385e9-ed6e-461a-96d7-f13e0bb7db95",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Sri Yatna",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SriYatna.pdf",
+    "lines": "",
+    "filename": "81d3f4c0-b208-48be-8aa0-deeb7bf32402",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Sukma Ilang",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/SukmaIlang.pdf",
+    "lines": "",
+    "filename": "8eafc5c3-88d8-442a-a733-40c42a1b526b",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Tamaswara",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Tamaswarsa.pdf",
+    "lines": "",
+    "filename": "2154efad-aebb-4b91-aab5-131c24fa60a6",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ketawang Tarupala",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Tarupala.pdf",
+    "lines": "",
+    "filename": "d6a46dbc-2fc4-46a0-b6ed-cf5d1dda242a",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Tebu Sak Uyun",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/TebuSakUyun.pdf",
+    "lines": "",
+    "filename": "df3512f5-4a90-4b05-aa01-7e7270117fc2",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Teja",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Teja.pdf",
+    "lines": "",
+    "filename": "c4d4879c-1f2e-4f5a-9eeb-114fe27c40f0",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Wicara",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Wicara.pdf",
+    "lines": "",
+    "filename": "25b76370-e54d-4e23-ab1f-941479e5113b",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gerongan Ladrang Wilujeng",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Wilujeng.pdf",
+    "lines": "",
+    "filename": "344de1e8-28e5-4cd6-bdde-60f8c071ef3b",
+    "identifier": {
+      "structure": "Gerongan",
+      "laras": "Slendro",
+      "pathet": "Manyura"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang  Andhe-Andhe Lumut",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Andhe2Lumut.pdf",
+    "lines": "",
+    "filename": "45081ee0-4fe3-4492-a3b4-c3a168550b85",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Asmaradana",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Asmaradana.pdf",
+    "lines": "",
+    "filename": "903d241c-cff2-4c2b-8ef1-8f2d1828b6e1",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Biwada Praja*",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/BiwadaPraja.pdf",
+    "lines": "",
+    "filename": "3c17f0ec-ded5-475c-beb3-20e0355ce6d7",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Boyong Basuki",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/BoyongBasuki.pdf",
+    "lines": "",
+    "filename": "9721f850-fead-4afb-8d6a-f14335857036",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Branta Mentul",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Brantamentul.pdf",
+    "lines": "",
+    "filename": "69b39adf-011c-4244-bc74-b3d0ed75df67",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Dhempo*",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Dhempo_ladrang.pdf",
+    "lines": "",
+    "filename": "5a0b9d95-467a-43a9-947b-776343e2522d",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Eling-eling Kasmaran*",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Eling2Kasmaran.pdf",
+    "lines": "",
+    "filename": "65f76f5a-e868-4b06-914f-cbf5940baa55",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Ginonjing",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Ginonjing.pdf",
+    "lines": "",
+    "filename": "5ff7a48f-4b40-44d1-a4d3-8cc4d0e0020d",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": "",
+        "numeric_seq": [0,5,0,6,0,5,0,3,0,5,0,7,0,5,0,6,0,5,0,2,0,5,0,7,0,5,0,3,0,5,0,6,0,5,0,3,0,5,0,6,0,5,0,3,0,5,0,2]
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Gupuh",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Gupuh.pdf",
+    "lines": "",
+    "filename": "f3b54075-a490-48e9-b535-f77139cf05e8",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": "",
+        "numeric_seq": [5,5,0,0,7.6,5,3,0,0,3,5,6,7,6,7,0,0,7,0,6,5,6,7,3,2,6,5,7,6,5,3,0,0,3,5,6,7,6,5,7.6,3,2,4,3,2,7]
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Jangkung Kuning",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/JangkungKuning.pdf",
+    "lines": "11-18",
+    "filename": "5599287a-8b1f-4af9-933f-d8f36e511567",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": "16-18",
+        "numeric_seq": [0,0,3,5,6,5,3,2,0,0,2,3,5,6,3,5,3,5,6,7,3,5,6,7,3,5,6,7,3,5,6,7,0,7,6,7,0,6,5,3,0,6,0,5,2,3,4,2]
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Jongkeri",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Jongkeri.pdf",
+    "lines": "5-8,10-13",
+    "filename": "9a952b3e-e425-4b6f-9794-ffedfc1bdcb2",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": "5-8,11-13",
+        "numeric_seq": [6,5,3,2,  5,6,5,3,  6,5,3,2,  5,6,5,3,
+                        6,6,0,0,  2,3,2,7,  3,2,6,3,  6,5,3,2,
+                        4,3,2,7,  3,5,3,2,  4,3,2,7,  3,5,3,2,
+                        6,6,0,0,  2,3,2,7,  3,2,6,5,  7,6,5,3,
+                        6,6,0,0,  2,3,2,7,  3,2,6,3,  6,5,3,2,
+                        4,3,2,7,  3,5,3,2,  4,3,2,7,  3,5,3,2,
+                        6,6,0,0,  2,3,2,7,  3,2,6,5,  7,6,5,3]
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kutut Manggung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Kututmanggung_ladrang.pdf",
+    "lines": "5,6,8-11,13-20",
+    "filename": "e58c6cdc-77b5-4381-9f9b-e11f678fd3c9",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": "9-11,11,9-11",
+        "numeric_seq": [3,6,3,2, 5,6,5,3, 6,7,3,2, 6,3,2,7,
+                        3,6,3,2, 6,3,5,6, 3,5,6,7, 6,5,7,6,
+                        3,2,3,2, 5,6,5,3, 6,7,3,2, 6,3,2,7,
+
+                        3,6,3,2, 5,6,5,3, 6,7,3,2, 6,3,2,7,
+
+                        3,6,3,2, 5,6,5,3, 6,7,3,2, 6,3,2,7,
+                        3,6,3,2, 6,3,5,6, 3,5,6,7, 6,5,7,6,
+                        3,2,3,2, 5,6,5,3, 6,7,3,2, 6,3,2,7]
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kuwung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Kuwung_mangkunegaran.pdf",
+    "lines": "8-11",
+    "filename": "26e04ffd-1806-4f38-8bb5-7d3fb2ca02e3",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": "8-11",
+        "numeric_seq":[ 0,0,6,5,  3,5,6,7,  0,7,5,6,  0,5,3,2,
+                        6,7,3,2,  6,7,3,2,  5,6,5,3,  2,7,5,6,
+                        3,3,0,0,  3,3,5,6,  7,2,7,6,  3,5,3,2,
+                        6,7,3,2,  6,7,3,2,  5,6,5,3,  2,7,5,6]
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Langen Pradangga",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/LangenPradangga.pdf",
+    "lines": "",
+    "filename": "b3371b91-12aa-473f-b522-e0e8060af912",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Binabar - ngelik",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Binabar-Laras.pdf",
+    "lines": "",
+    "filename": "68b68c50-c1f8-4988-9e8c-8b45949539e9",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Larasmaya",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Larasmaya.pdf",
+    "lines": "",
+    "filename": "95a6f1a0-364b-4823-9c4c-5f9c44000d35",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Lulut",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/p7/Lulut.pdf",
+    "lines": "",
+    "filename": "a6308172-6eb6-415c-b8a3-f928a8689fa9",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Manis",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Manis_mawiSesegan.pdf",
+    "lines": "",
+    "filename": "b7a00eb8-1015-4c97-91e9-ce4948e54dbc",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Manis Betawen",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/ManisBetawen.pdf",
+    "lines": "",
+    "filename": "e0077dd6-91d5-4df7-822f-f5f729bde28b",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Mijil Merakati",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/MijilMerakati.pdf",
+    "lines": "",
+    "filename": "67edb333-ece2-47ba-bd1a-1cd95c65e363",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Montro",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Montro.pdf",
+    "lines": "",
+    "filename": "c1ca9a97-e0ea-4c30-88c5-30609a698f8d",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Pamudya",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/p7/Pamudya.pdf",
+    "lines": "",
+    "filename": "d6556a5c-1880-475d-9be6-0393cbc3b984",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ayak-ayakan Pamungkas",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Ayak2anPamungkas.pdf",
+    "lines": "",
+    "filename": "34cbb92d-eee9-41f5-bb01-893f4338b24b",
+    "identifier": {
+      "structure": "Ayak-ayakan",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Pangkur",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Pangkur.pdf",
+    "lines": "",
+    "filename": "2b5f1f4d-2720-4863-b1dd-14673736da65",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Pangkur Sogsong Agung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/PangkurSongsongAgung.pdf",
+    "lines": "",
+    "filename": "b051eab7-0409-4caf-807a-e221602e1951",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Pucung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Pucung.pdf",
+    "lines": "",
+    "filename": "0e76a3ab-1d08-4acd-bd91-84d2506719c8",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Puji Slamet",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/PujiSlamet.pdf",
+    "lines": "",
+    "filename": "e7260489-7791-4356-af5e-cc60591917c9",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Kuwung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Kuwung_mangkunegaran.pdf",
+    "lines": "",
+    "filename": "08f8c338-5c62-4162-a526-6c19c3d7b6ac",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Raket",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/p7/Raket.pdf",
+    "lines": "",
+    "filename": "2f9125d1-d845-4dbf-a675-1a84d089d383",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Rinakit-ngelik",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Rinakit-Rakit.pdf",
+    "lines": "",
+    "filename": "13d37ac0-4783-4e38-b98b-9a3b377d39f0",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Rangu-rangu",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Rangu2.pdf",
+    "lines": "",
+    "filename": "0fa903ed-4a50-45f5-bb52-5d19fefd0ace",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Rangu Asmara",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/RanguAsmara.pdf",
+    "lines": "",
+    "filename": "340a1015-0c77-4d29-b6a7-7a3c1b642323",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Respati",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/p7/Respati_ladrang.pdf",
+    "lines": "",
+    "filename": "6a112b6d-46a3-453c-816e-fa3ff37eaf16",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "ketawang sekaring puri",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SekaringPuri.pdf",
+    "lines": "",
+    "filename": "605a7b6e-5b66-4861-a20e-22f57744807a",
+    "identifier": {
+      "structure": "ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sigramangsah",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Sigramangsah.pdf",
+    "lines": "",
+    "filename": "374166e9-8687-4456-bbfe-4693c5347641",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Gerongan Sinom",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/p7/Sinom.pdf",
+    "lines": "",
+    "filename": "d643b4e3-f621-45fe-8ae5-39536383324f",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Biwada",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriBiwada!wd.pdf",
+    "lines": "",
+    "filename": "eb6535ef-45bb-4d09-ab4e-afe01fe886da",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Dayinta Wibawa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriDayintaWibawa.pdf",
+    "lines": "",
+    "filename": "1d15eaf3-e3c5-411e-b574-8316810b804c",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Dirgayuswa",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriDirgayuswa.pdf",
+    "lines": "",
+    "filename": "0cd72b5e-f021-4129-8e21-5a7b6fa21e2f",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Sri Kastawa Gendhing",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriKastawaGendhing.pdf",
+    "lines": "",
+    "filename": "9163cd52-0506-4004-a4aa-51f87c6563d9",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Kawuryan",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriKawuryan.pdf",
+    "lines": "",
+    "filename": "4557e416-8ff3-4d33-a122-de2d61160a88",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Linuhung",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriLinuhung.pdf",
+    "lines": "",
+    "filename": "03d2de01-1f8a-4a7f-b3f9-fb8adf393469",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Sri Raharja",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriRaharja.pdf",
+    "lines": "",
+    "filename": "8985a882-d86b-48b5-9117-5b8a3e6d3df3",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ketawang Sri Utama",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriUtama.pdf",
+    "lines": "",
+    "filename": "6c50e26f-7b0e-4b27-904a-9a270108d6af",
+    "identifier": {
+      "structure": "Ketawang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sri Widada",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/SriWidada.pdf",
+    "lines": "",
+    "filename": "0a24b87e-9b79-48a1-8f65-706f3bd2b903",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Sumyar",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Sumyar.pdf",
+    "lines": "",
+    "filename": "cdabe109-b5b6-4872-abc5-b8ecb0624886",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Surengrana",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Surengrana!pp.pdf",
+    "lines": "",
+    "filename": "b754ebc9-097e-413b-a5fb-36a30031f709",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Gendhing Tunggul (PA)",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Tunggul-PaculGowang!pa.pdf",
+    "lines": "",
+    "filename": "4f480a81-7baa-4350-adb6-a1d23f848533",
+    "identifier": {
+      "structure": "Gendhing",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Wahana",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Wahana.pdf",
+    "lines": "",
+    "filename": "34c533fe-2bb7-480c-82e9-fd6d828c5a57",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Warastra",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Warastra.pdf",
+    "lines": "",
+    "filename": "c27aa3aa-a7f7-4efa-a28c-60bc86706d43",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  },
+  {
+    "title": "Ladrang Wilujeng",
+    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/p7/Wilujeng.pdf",
+    "lines": "",
+    "filename": "4a53bd0c-466d-42bd-bedc-2707afe83a77",
+    "identifier": {
+      "structure": "Ladrang",
+      "laras": "Pelog",
+      "pathet": "Barang"
+    },
+    "notation_numeric_seq": "",
+    "notation_gspn_seq": "",
+    "accompaniment": {
+      "balungan": "",
+      "gerongan": "",
+      "bonang": "",
+      "gong": ""
+    },
+    "used_by": [
+      {
+        "author": "10.1109/ACCESS.2025.3578449",
+        "lines": ""
+      }
+    ]
+  }
+]
