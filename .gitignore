@@ -17,6 +17,7 @@ dist/
 env/
 venv/
 ENV/
+examples/my_gamelan_cache
 
 # OS generated files
 .DS_Store
