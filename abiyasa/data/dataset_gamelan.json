@@ -694,6 +694,7 @@
       },
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "dataset_name": "BORUSS_DSET",
         "encoding": "BORUSS",
         "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/83522ed4-0758-4f70-a9b1-1a9f4ca05545/file_downloaded",
         "filename": "3c926e3d-7839-57cd-9551-f941f129a8f3",
@@ -748,6 +749,7 @@
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
         "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/4a191407-1012-4fdb-88db-abc4543b1288/file_downloaded",
         "filename": "739164b1-a9d9-58f6-9852-f2e239344706",
         "lines": "",
@@ -802,6 +804,7 @@
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
         "lines": "",
         "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/529a718d-6f22-4990-989a-ddf3280e2ea0/file_downloaded",
         "filename": "fa1d88ff-d25f-5aec-89c8-060863dd308b",
         "lines_barung": "",
@@ -855,6 +858,7 @@
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
         "lines": "",
         "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/035d234c-628e-480b-8f80-20b63c21f960/file_downloaded",
         "filename": "17da2059-03ce-5947-bc3c-348108fb1b8b",
         "lines_barung": "",
@@ -908,6 +912,7 @@
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
         "lines": "",
         "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/ee91b23c-7c1c-4619-a482-fa48b5955086/file_downloaded",
         "filename": "8fcd5e32-cfe1-54b6-81da-4c6ad5e1fd04",
         "lines_barung": "",
@@ -1612,6 +1617,8 @@
     "used_by": [
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "lines": "4,5"
       }
     ]
@@ -1637,6 +1644,8 @@
     "used_by": [
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "lines": "4-8"
       },
       {
@@ -1667,6 +1676,8 @@
     "used_by": [
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "lines": "5-8"
       }
     ]
@@ -1692,6 +1703,8 @@
     "used_by": [
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "lines": "4-7"
       }
     ]
@@ -1717,6 +1730,8 @@
     "used_by": [
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "lines": "5-8"
       }
     ]
@@ -1742,6 +1757,8 @@
     "used_by": [
       {
         "author": "https://doi.org/10.26555/ijain.v9i2.1031",
+        "encoding": "BORUSS",
+        "dataset_name": "BORUSS_DSET",
         "lines": "4-7"
       }
     ]
@@ -1768,6 +1785,7 @@
       {
         "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
         "encoding": "GSPN",
+        "dataset_name": "GSPN_DSET",
         "lines": "p2:2,9,16,24",
         "reference_gspn": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
@@ -1795,6 +1813,7 @@
       {
         "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
         "encoding": "GSPN",
+        "dataset_name": "GSPN_DSET",
         "lines": "2,4,6,8,10,12,14",
         "reference_gspn":"00002216a0021x2y6ax3y300003561b001b1b02bx3by2b000001bAx2bA6y5x0A3A1by01bx002by6000005x6y3x1by01b1b01bx2by6000006020022x5y566000005630032x1y6ax2A3Ay1002106ax2y2006a1x2y2x1A3Ay3"
       }
@@ -1822,12 +1841,14 @@
       {
         "author": "https://doi.org/10.37134/mjm.vol9.7.2020",
         "encoding": "GSPN",
+        "dataset_name": "GSPN_DSET",
         "lines": "2,6,10,14,18,22",
         "reference_gspn":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
       },
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2,6,10,14,18,22",
         "reference_gspn":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
 
@@ -1862,6 +1883,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p1:2,6,10,14,18,22,p2:2,4,6,8,10,12,16,18"
       }
     ]
@@ -1894,6 +1916,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2-7",
         "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
 
@@ -1928,6 +1951,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2,6,10,14,18,22",
         "reference_gspn": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
       }
@@ -1988,6 +2012,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p1:2,10,18,26,P2:2,7,12,17,22,27",
         "reference_gspn":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
       }
@@ -2847,6 +2872,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p2:2,9,16,24,p3:2,8,14,20,26,p4:2,8",
         "reference_gspn": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a000000006a123561bBx6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay100003b3b0A3bBx5bBy2003b3b01bA3bA2b2bx1by000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000030A3Bx5By2003Ax5Ay301Ax2A1y6a005Ax6Ay3005Ax6Ay3001bAx2bAy603x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
       }
@@ -2874,6 +2900,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p1:2,7,12,17,22,27",
         "reference_gspn": "006a1x2A3Ay3x0A5Ay2006a1x2A3Ay3x0A5Ay20056x1bA2bAy6x1bB6B5Ay3001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00330A3A5x06y66x0A5Ay5x6A1bAy6x5A5A5y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       }
@@ -2901,6 +2928,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -2927,6 +2955,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -2953,6 +2982,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -2979,6 +3009,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3005,6 +3036,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2,4,6,8,10,12,14,16"
       }
     ]
@@ -3031,6 +3063,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3057,6 +3090,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3083,6 +3117,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3109,6 +3144,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3135,6 +3171,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3161,6 +3198,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3187,6 +3225,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3213,6 +3252,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3239,6 +3279,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3265,6 +3306,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3291,6 +3333,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3317,6 +3360,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3343,6 +3387,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3369,6 +3414,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3395,6 +3441,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3421,6 +3468,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3447,6 +3495,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3473,6 +3522,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3499,6 +3549,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3525,6 +3576,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3551,6 +3603,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3577,6 +3630,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3603,6 +3657,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3629,6 +3684,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3655,6 +3711,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3681,6 +3738,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3707,6 +3765,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3733,6 +3792,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3759,6 +3819,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3785,6 +3846,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3811,6 +3873,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3837,6 +3900,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3863,6 +3927,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3889,6 +3954,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3915,6 +3981,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3941,6 +4008,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3967,6 +4035,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -3993,6 +4062,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4019,6 +4089,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4045,6 +4116,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4071,6 +4143,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4097,6 +4170,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4123,6 +4197,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4149,6 +4224,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4175,6 +4251,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4201,6 +4278,7 @@
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
         "lines": ""
       }
     ]
@@ -4226,6 +4304,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4251,6 +4331,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4276,6 +4358,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4301,6 +4385,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4326,6 +4412,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4351,6 +4439,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4376,6 +4466,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4401,6 +4493,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": "",
         "numeric_seq": [0,5,0,6,0,5,0,3,0,5,0,7,0,5,0,6,0,5,0,2,0,5,0,7,0,5,0,3,0,5,0,6,0,5,0,3,0,5,0,6,0,5,0,3,0,5,0,2]
       }
@@ -4427,6 +4521,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": "",
         "numeric_seq": [5,5,0,0,7.6,5,3,0,0,3,5,6,7,6,7,0,0,7,0,6,5,6,7,3,2,6,5,7,6,5,3,0,0,3,5,6,7,6,5,7.6,3,2,4,3,2,7]
       }
@@ -4453,6 +4549,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": "16-18",
         "numeric_seq": [0,0,3,5,6,5,3,2,0,0,2,3,5,6,3,5,3,5,6,7,3,5,6,7,3,5,6,7,3,5,6,7,0,7,6,7,0,6,5,3,0,6,0,5,2,3,4,2]
       }
@@ -4479,6 +4577,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": "5-8,11-13",
         "numeric_seq": [6,5,3,2,  5,6,5,3,  6,5,3,2,  5,6,5,3,
                         6,6,0,0,  2,3,2,7,  3,2,6,3,  6,5,3,2,
@@ -4511,6 +4611,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": "9-11,11,9-11",
         "numeric_seq": [3,6,3,2, 5,6,5,3, 6,7,3,2, 6,3,2,7,
                         3,6,3,2, 6,3,5,6, 3,5,6,7, 6,5,7,6,
@@ -4545,6 +4647,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": "8-11",
         "numeric_seq":[ 0,0,6,5,  3,5,6,7,  0,7,5,6,  0,5,3,2,
                         6,7,3,2,  6,7,3,2,  5,6,5,3,  2,7,5,6,
@@ -4574,6 +4678,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4599,6 +4705,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4624,6 +4732,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4649,6 +4759,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4674,6 +4786,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4699,6 +4813,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4724,6 +4840,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4749,6 +4867,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4774,6 +4894,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4799,6 +4921,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4824,6 +4948,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4849,6 +4975,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4874,6 +5002,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4899,6 +5029,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4924,6 +5056,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4949,6 +5083,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4974,6 +5110,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -4999,6 +5137,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5024,6 +5164,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5049,6 +5191,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5074,6 +5218,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5099,6 +5245,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5124,6 +5272,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5149,6 +5299,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5174,6 +5326,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5199,6 +5353,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5224,6 +5380,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5249,6 +5407,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5274,6 +5434,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5299,6 +5461,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5324,6 +5488,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5349,6 +5515,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5374,6 +5542,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5399,6 +5569,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5424,6 +5596,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5449,6 +5623,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5474,6 +5650,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
@@ -5499,6 +5677,8 @@
     "used_by": [
       {
         "author": "10.1109/ACCESS.2025.3578449",
+        "dataset_name": "OVENS_DSET",
+        "encoding": "OVENS",
         "lines": ""
       }
     ]
