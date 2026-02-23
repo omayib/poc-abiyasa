@@ -15,7 +15,7 @@ def example_basic_usage():
     print("=" * 60)
     
     # Load first 3 items with GSPN encoding
-    data = abiyasa.load_data(encoder='GSPN', limit=100, verbose=True)
+    data = abiyasa.load_data(encoder='GSPN', limit=100, verbose=True, filter_dset ="QAP_DSET")
     
     print(f"\nLoaded {len(data)} items")
     
@@ -156,13 +156,13 @@ def main():
     print("=" * 60)
     
     try:
-        # example_basic_usage()
+        example_basic_usage()
         # example_with_kepatihan()
         # example_metadata_only()
-        example_process_encoded_data()
-        example_dataset_class()
-        example_encoder_directly()
-        example_dataset_info()
+        # example_process_encoded_data()
+        # example_dataset_class()
+        # example_encoder_directly()
+        # example_dataset_info()
         
         print("\n" + "=" * 60)
         print("All examples completed successfully!")

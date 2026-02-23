@@ -43,6 +43,7 @@ def load_data(
     limit: int = None,
     verbose: bool = True,
     cache_dir: str = None,
+    filter_dset: str = None
 ):
     """
     Convenience function to load gamelan dataset with encoding.
@@ -85,7 +86,8 @@ def load_data(
         notation_system=notation_system,
         extract_pdf=extract_pdf,
         limit=limit,
-        verbose=verbose
+        verbose=verbose,
+        filter_dset=filter_dset
     )
 
 
