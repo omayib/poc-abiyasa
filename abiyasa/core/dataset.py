@@ -185,7 +185,6 @@ class GamelanDataset:
         encoder_instance = self.get_encoder(encoder, notation_system)
 
         results = []
-        print(filter_dset)
         if filter_dset:
             print(f"filter dset on")
             items = [item for item in self.metadata
@@ -195,7 +194,7 @@ class GamelanDataset:
         total = len(items)
 
         for idx, item in enumerate(items, 1):
-            print(f"items==> \n{json.dumps(item, indent=4)}")
+            # print(f"items==> \n{json.dumps(item, indent=4)}")
             if verbose:
                 print(f"\n[{idx}/{total}] Processing: {item['title']}")
 
@@ -301,6 +300,7 @@ class GamelanDataset:
         # 4. Extract & encode each part defined for this dataset
         # ------------------------------------------------------------------
         if extract_pdf:
+            print(f"extract_pdf {extract_pdf}")
             # Detect font type once per PDF — applies to all parts
             font_info = parse_pdf_font(str(pdf_path))
             if font_info and font_info.get('font_type') in ['kepatihan', 'balungan']:
@@ -342,6 +342,7 @@ class GamelanDataset:
                     for line_no, content in page.get('lines', []):
                         try:
                             encoded = encoder.encode(content)
+                            # print(f"content {content }, encoded {encoded}")
                             encoded_data.append({
                                 'page': page.get('page_number'),
                                 'line': line_no,

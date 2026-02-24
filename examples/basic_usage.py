@@ -4,6 +4,7 @@ Basic usage examples for the Abiyasa package.
 This file demonstrates common use cases for loading and processing
 Gamelan music datasets.
 """
+import json
 
 import abiyasa
 
@@ -15,7 +16,7 @@ def example_basic_usage():
     print("=" * 60)
     
     # Load first 3 items with GSPN encoding
-    data = abiyasa.load_data(encoder='GSPN', limit=100, verbose=True, filter_dset ="QAP_DSET")
+    data = abiyasa.load_data(encoder='GSPN', limit=100, verbose=True, filter_dset ="35_GERONGAN_SM_DSET")
     
     print(f"\nLoaded {len(data)} items")
     
@@ -65,26 +66,58 @@ def example_metadata_only():
 
 def example_process_encoded_data():
     """Process and analyze encoded data."""
+
     print("\n" + "=" * 60)
     print("Example 4: Processing Encoded Data")
     print("=" * 60)
     
-    data = abiyasa.load_data(encoder='GSPN', limit=100, verbose=False)
+    data = abiyasa.load_data(encoder='GSPN', limit=1, verbose=True, filter_dset ="QAP_DSET")
     
     for item in data:
         print(f"\n{'='*50}")
-        print(f"Title: {item['title']}")
-        print(f"Font: {item.get('font_type', 'N/A')}")
-        
-        if 'encoded_data' in item:
-            print(f"Total lines: {len(item['encoded_data'])}")
-            
+        # print(f"title: {item}")
+        print(f"title: {item.get('title', '')}")
+        encoded_sequence = item.get('metadata', {}).get('dataset_entry', {}).get('encoded_sequence', '')
+        print(f"encoded_sequence: {encoded_sequence}")
+        encoded_combined=""
+        if 'parts' in item and 'lines' in item['parts']:
+            encoded_combined = "".join([line['encoded'] for line in item['parts']['lines']])
             # Show first 3 encoded lines
-            for line_data in item['encoded_data'][:3]:
-                print(f"\n  Page {line_data['page']} | Line {line_data['line']}")
-                print(f"  Original: {line_data['original'][:60]}...")
-                print(f"  Encoded:  {line_data['encoded'][:60]}...")
+            # for line_data in item['parts']['lines']:
+                # print(f"\n  Page {line_data['page']} | Line {line_data['line']}")
+                # print(f"  Original: {line_data['original']}")
+                # print(f"  Encoded:  {line_data['encoded']}")
+            # 4. Now it's safe to compare
+        # if encoded_combined:
+        #     compare(reference_gspn, encoded_combined)
+        # else:
+        #     print("⚠️ No encoded data found to compare.")
 
+
+def compare(original, encoded):
+    diff_marker = ""
+    mismatches = []
+
+    # Use zip to compare character by character
+    for i, (char_title, char_enc) in enumerate(zip(original, encoded)):
+        if char_title == char_enc:
+            diff_marker += " "  # Match
+        else:
+            diff_marker += "^"  # Difference marker
+            mismatches.append(f"Pos {i}: Title='{char_title}', Encoded='{char_enc}'")
+
+    # 4. Display results
+    # print(f"Encoded: {original[:100]}...")
+    # print(f"Encoded: {encoded[:100]}...")
+    # print(f"Diff:    {diff_marker[:100]}...")
+
+    if not mismatches:
+        print("\n✅ Perfect match!")
+    else:
+        print(f"\n❌ Found {len(mismatches)} differences.")
+        # Show first few specific errors
+        for m in mismatches[:5]:
+            print(f"  - {m}")
 
 def example_dataset_class():
     """Use GamelanDataset class directly for more control."""
@@ -156,12 +189,12 @@ def main():
     print("=" * 60)
     
     try:
-        example_basic_usage()
+        #example_basic_usage()
         # example_with_kepatihan()
         # example_metadata_only()
-        # example_process_encoded_data()
+        example_process_encoded_data()
         # example_dataset_class()
-        # example_encoder_directly()
+        #example_encoder_directly()
         # example_dataset_info()
         
         print("\n" + "=" * 60)
