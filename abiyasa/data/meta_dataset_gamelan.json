@@ -1461,7 +1461,16 @@
         "dataset_name": "35_GERONGAN_SM_DSET",
         "dataset_url": "https://data.mendeley.com/public-files/datasets/dvrscpc6vc/files/7fa5fbbb-31a8-47fe-9264-b86862cb8303/file_downloaded",
         "filename": "7f1d6c89-32e7-43a6-92ec-929048122357",
+        "encoded_sequence": "00003b3b3bB5bB2bA1bx02by1bAx6Ay303Ax5A3y20000333Ax2Ay10035x0A6Ay3Ax5Ay3x20000330A3A5x06y1b1bx2bA3bAy1bx2bB1bB6Ay5003Ax5Ay6x1bA2bAy6x1bB6B5Ay3001bAx2bAy603Ax5A3y2",
         "lines": "5,6"
+      },
+      {
+        "author": "10.12720/jait.14.1.26-38",
+        "encoding": "GSPN",
+        "dataset_name": "59_LADRANG_SM_DSET",
+        "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/MugiRahayu.pdf",
+        "filename": "c0914788-6d9f-4d9a-8179-878e94af7a36",
+        "lines": ""
       }
     ]
   },
@@ -1652,6 +1661,7 @@
       {
         "author": "10.1109/ACCESS.2024.3457880",
         "dataset_name": "QAP_DSET",
+        "encoding": "QAP",
         "lines": "4-8",
         "numeric_seq": [5, 3, 5, 2, 5, 2, 5, 3, 5, 3, 5, 2, 5, 2, 5, 6, 4, 2, 4, 5, 2, 4, 5, 6, 4, 2, 4, 5, 2, 4, 5, 6, 2, 3, 2, 1, 6, 5, 2]
       }
@@ -1789,7 +1799,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p2:2,9,16,24",
-        "reference_gspn": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -1817,7 +1827,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,4,6,8,10,12,14",
-        "reference_gspn":"00002216a0021x2y6ax3y300003561b001b1b02bx3by2b000001bAx2bA6y5x0A3A1by01bx002by6000005x6y3x1by01b1b01bx2by6000006020022x5y566000005630032x1y6ax2A3Ay1002106ax2y2006a1x2y2x1A3Ay3"
+        "encoded_sequence":"00002216a0021x2y6ax3y300003561b001b1b02bx3by2b000001bAx2bA6y5x0A3A1by01bx002by6000005x6y3x1by01b1b01bx2by6000006020022x5y566000005630032x1y6ax2A3Ay1002106ax2y2006a1x2y2x1A3Ay3"
       }
     ]
   },
@@ -1845,14 +1855,14 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
       },
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
         "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence":"0000553Ax6Ay6x1b2bx1bAx6Ay303Ax5A3y200003b3b0A3bBx5bBy2b003bAx5bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30031x2A3Ay3x0A5Ay2003Ax5Ay301Ax2A1y6a"
 
       }
     ]
@@ -1881,7 +1891,7 @@
         "dataset_name": "35_GERONGAN_SM_DSET",
         "encoding": "GSPN",
         "lines": "p1:2,6,10,14,18,22,p2:2,4,6,8,10,12,16,18",
-        "reference_gspn": "0000330A3A5x06y1bBx2bB6Ay302Ax5A3y2001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay302Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by0003b3b3bAx5bAy2b003bAx5bAy3b01bAx2bA1by6000061bAx2bAy2bAx3bAy3b003b2bx0A1bAy3bx2by1b0056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000330A3A5x06y1bBx2bB6Ay302Ax5A3y2001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay302Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by0003b3b3bAx5bAy2b003bAx5bAy3b01bAx2bA1by6000061bAx2bAy2bAx3bAy3b003b2bx0A1bAy3bx2by1b0056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       },
       {
         "author": "10.12720/jait.14.1.26-38",
@@ -1915,14 +1925,14 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       },
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
         "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ax3x05A6Ax2Ax5Ay301Ax2A1y6ax0A1A2y00220A2Bx3By1x02y3303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
 
       }
     ]
@@ -1951,14 +1961,14 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
+        "encoded_sequence": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
       },
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
         "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
+        "encoded_sequence": "0000553Ax6Ay6x1b2bA3bAy1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a0061x2bA3bAy3bx0A5bAy2x1bA2bA3by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA1bx03by3bAx5bAy2bx0A3bAx1bAx2bA1by6001b2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2"
       }
     ]
   },
@@ -1986,7 +1996,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,7,12,17,22,27",
-        "reference_gspn": "002b2b002bAx3bAy1bx02by3b3b01bAx3bA5bB3bB2bAy2by1by065x0A3Ay6x1bB6B5Ay3003Ax6Ay5x0A6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a003Ax6Ay5x0A6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a003Ax6Ay5x0A6Ay3Ax5A3y2x0A5A6y00660A6A1bx02by2bAx3bAy1bx0A2bAy6Ax1bA6y5003Ax5Ay602x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "002b2b002bAx3bAy1bx02by3b3b01bAx3bA5bB3bB2bAy2by1by065x0A3Ay6x1bB6B5Ay3003Ax6Ay5x0A6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a003Ax6Ay5x0A6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a003Ax6Ay5x0A6Ay3Ax5A3y2x0A5A6y00660A6A1bx02by2bAx3bAy1bx0A2bAy6Ax1bA6y5003Ax5Ay602x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -2014,14 +2024,14 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p1:2,10,18,26,P2:2,7,12,17,22,27",
-        "reference_gspn":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
+        "encoded_sequence":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
       },
       {
         "author": "10.12720/jait.14.1.26-38",
         "encoding": "GSPN",
         "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p1:2,10,18,26,P2:2,7,12,17,22,27",
-        "reference_gspn":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
+        "encoded_sequence":"0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y2005Ax6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3Ay1bx2bB1bB6Ay50066x1bA2bAy6x1bB6B5Ay3"
       }
     ]
   },
@@ -2049,7 +2059,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p1:2,6,10,18,22,p2:2,4,6,8,10,12",
-        "reference_gspn": "0000666Ax1bAy5x06y3Ax6Ay5x0A3Ay2Ax5A3y2001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay302Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y20032x06ay6aAx2Ay10035x0A6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000666Ax1bAy5x06y3Ax6Ay5x0A3Ay2Ax5A3y2001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay302Ax5A3y20000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y20032x06ay6aAx2Ay10035x0A6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2077,7 +2087,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,4,6,8,10,12,14,16",
-        "reference_gspn":"00006a6a0A6aA2x3y032x0A1Ay1x2A3Ay30065x6y3x1y201213216a000065Ax6Ay3Ax1bAy1b01b01bx6y2bx0A3bAy1b0001b02bx6y5x6y202x1y3x0A5Ay2000000000201x0A5Ay5x6y5x03y0061b2b3b06x3y5x6y6x1bA5Ay3001b1b02bx1bA6Ay1bx6y053x6y022006a2x3y05Ax6Ay3x65A6Ay21x0A6aAy2x1y6a"
+        "encoded_sequence":"00006a6a0A6aA2x3y032x0A1Ay1x2A3Ay30065x6y3x1y201213216a000065Ax6Ay3Ax1bAy1b01b01bx6y2bx0A3bAy1b0001b02bx6y5x6y202x1y3x0A5Ay2000000000201x0A5Ay5x6y5x03y0061b2b3b06x3y5x6y6x1bA5Ay3001b1b02bx1bA6Ay1bx6y053x6y022006a2x3y05Ax6Ay3x65A6Ay21x0A6aAy2x1y6a"
       }
     ]
   },
@@ -2105,7 +2115,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn": "0000660A6A1bx02by3b3b01bAx3bA2by2bx1bx06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y20000555Ax6Ay3005603Ax5A3y20066x1bA2bAy6x1bB6B5Ay3001bAx2bAy603Ax5A3y2x1A2A3y00330A3A5x06y1b1bx2bA3bAy1bx2bB1bB6Ay5001bAx2bAy602x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "0000660A6A1bx02by3b3b01bAx3bA2by2bx1bx06Ax1bAy2bx0A3bAy1bAx2bA6y3001bAx2bAy6x0A5Ay3Ax5A3y20000555Ax6Ay3005603Ax5A3y20066x1bA2bAy6x1bB6B5Ay3001bAx2bAy603Ax5A3y2x1A2A3y00330A3A5x06y1b1bx2bA3bAy1bx2bB1bB6Ay5001bAx2bAy602x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -2133,7 +2143,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn": "000065Ax6Ay3Ax5Ay20056x1bA2bAy6x1bB6B5Ay30061bx2bA3bAy3bx0A5bAy2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1bx02by65x0A3Ay3x5A6Ay60032x0A3Ay1x6aA2Ay20056x1bA2bAy6x1bB6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay1"
+        "encoded_sequence": "000065Ax6Ay3Ax5Ay20056x1bA2bAy6x1bB6B5Ay30061bx2bA3bAy3bx0A5bAy2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1bx02by65x0A3Ay3x5A6Ay60032x0A3Ay1x6aA2Ay20056x1bA2bAy6x1bB6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay1"
       }
     ]
   },
@@ -2161,7 +2171,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p1:2,6,10,14,18,22,p2:2,6",
-        "reference_gspn": "001b1b001bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by01b2bx0A3bAy1bAx2bA6y5x03y3b3b01bAx3bA2by2bx1by01b2bx0A3bAy1bAx2bA6y50055x0A3Ay3x5A6Ay5001b2bx0A3bAy1bAx2bA1by6x1b2by65x0A3Ay6x1bB6B5Ay30000660A6Bx1bB5x06y32x0A1Ay3Ax5A3A2Ay10000550A6A6x1b2by65x0A3Ay6x1bB6B5Ay3"
+        "encoded_sequence": "001b1b001bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by01b2bx0A3bAy1bAx2bA6y5x03y3b3b01bAx3bA2by2bx1by01b2bx0A3bAy1bAx2bA6y50055x0A3Ay3x5A6Ay5001b2bx0A3bAy1bAx2bA1by6x1b2by65x0A3Ay6x1bB6B5Ay30000660A6Bx1bB5x06y32x0A1Ay3Ax5A3A2Ay10000550A6A6x1b2by65x0A3Ay6x1bB6B5Ay3"
       }
     ]
   },
@@ -2189,7 +2199,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn":"00001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay100006a123x05A6Ay2Ax5Ay301Ax2A1y6ax1A2Ay300660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay1006a1x0A2Ay2x1A3Ay3003Ax6Ay5x0A6Ay3Ax5A3y2"
+        "encoded_sequence":"00001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay303Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay100006a123x05A6Ay2Ax5Ay301Ax2A1y6ax1A2Ay300660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay1006a1x0A2Ay2x1A3Ay3003Ax6Ay5x0A6Ay3Ax5A3y2"
       }
     ]
   },
@@ -2217,7 +2227,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "0000220A2A3x05y66x1bA2bAy6x1bB6B5Ay3002Ax5Ay301Ax2A1y6a0035x0A6Ay3Ax5Ay320000220A2A3x05y66x1bA2bAy6x1bB6B5Ay3005Ax6Ay2005Ax6Ay3001b1bx0A6Ay6x1bA2bAy2bx1by02bA3bA6002bA3bA1bx02bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00333Ax1bAy1bx02bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA1by6"
+        "encoded_sequence": "0000220A2A3x05y66x1bA2bAy6x1bB6B5Ay3002Ax5Ay301Ax2A1y6a0035x0A6Ay3Ax5Ay320000220A2A3x05y66x1bA2bAy6x1bB6B5Ay3005Ax6Ay2005Ax6Ay3001b1bx0A6Ay6x1bA2bAy2bx1by02bA3bA6002bA3bA1bx02bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00333Ax1bAy1bx02bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA1by6"
       }
     ]
   },
@@ -2245,7 +2255,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p2:2-5",
-        "reference_gspn": "00003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ax30000330A3A6x01by1b1bx0A6Ay6x1bA2bAy1b001b2bx0A3bAy1bAx2bA1by6x1b2by1bAx6Ay303Ax5A3y2006a1x0A2Ay2x1A3Ay3005606x1bB6B5Ay3"
+        "encoded_sequence": "00003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ax30000330A3A6x01by1b1bx0A6Ay6x1bA2bAy1b001b2bx0A3bAy1bAx2bA1by6x1b2by1bAx6Ay303Ax5A3y2006a1x0A2Ay2x1A3Ay3005606x1bB6B5Ay3"
       }
     ]
   },
@@ -2273,7 +2283,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,7,12,17",
-        "reference_gspn": "0000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1bx02by65x0A6Ay3Ax5A3y20000220Ax2Ay3x05y6603Ax5A3y2001bAx2bAy606x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1bx02by65x0A6Ay3Ax5A3y20000220Ax2Ay3x05y6603Ax5A3y2001bAx2bAy606x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2301,7 +2311,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p1:2,5,8,11",
-        "referece_gspn": "00003356x1b2by63x2y3x1y20061b02bx3by2bx3by06503x6y600001b653x1y032x1y2x3y100330605x6A5A6y210302"
+        "encoded_sequence": "00003356x1b2by63x2y3x1y20061b02bx3by2bx3by06503x6y600001b653x1y032x1y2x3y100330605x6A5A6y210302"
       }
     ]
   },
@@ -2329,7 +2339,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy1b00003b3b3bAx5bAy2b003bBx5bB3bAy3b01bAx2bA1by6006Ax5Ay3Ax6A1bB2bB3Ay3bx0A2bAy1bx02by1bAx6Ay303Ax5A3y20061bx2bA3bAy3bx0A2bAy1bx02by1bAx6Ay303Ax5A3y200003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "00001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy1b00003b3b3bAx5bAy2b003bBx5bB3bAy3b01bAx2bA1by6006Ax5Ay3Ax6A1bB2bB3Ay3bx0A2bAy1bx02by1bAx6Ay303Ax5A3y20061bx2bA3bAy3bx0A2bAy1bx02by1bAx6Ay303Ax5A3y200003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ay30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -2357,7 +2367,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "0000330A3A6x01by1b1bx0A6Ay6x1bA2bAy2bx1by0003b3b3bAx5bAy2b003bBx5bB3bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Bx5B3Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6x1bB6B5Ay30065x0A6Ay2x0A3Ay1003Ax5Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "0000330A3A6x01by1b1bx0A6Ay6x1bA2bAy2bx1by0003b3b3bAx5bAy2b003bBx5bB3bAy3b01bAx2bA1by60000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Bx5B3Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6x1bB6B5Ay30065x0A6Ay2x0A3Ay1003Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -2385,7 +2395,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "0000220A2A3x05y66x1bA2bAy6x1bB6B5Ay30000660A1bA2bx03by1bBx2bB6Ay302Ax5A3y20000221Ax3Ay3005603Ax5A3y20000220A2A3x05y66x0A5Ay5x1bA6Ay6x5y05Ax6Ay3x0A5Ay5x5A6Ay5006603Ax5A3y2000066Ax1bAy1bAx2bAy2b003bAx5bAy3b01bAx2bA1by6"
+        "encoded_sequence": "0000220A2A3x05y66x1bA2bAy6x1bB6B5Ay30000660A1bA2bx03by1bBx2bB6Ay302Ax5A3y20000221Ax3Ay3005603Ax5A3y20000220A2A3x05y66x0A5Ay5x1bA6Ay6x5y05Ax6Ay3x0A5Ay5x5A6Ay5006603Ax5A3y2000066Ax1bAy1bAx2bAy2b003bAx5bAy3b01bAx2bA1by6"
       }
     ]
   },
@@ -2413,7 +2423,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,11,20,29",
-        "reference_gspn": "0000333Ax5Ay30056x1bA2bAy6x1bB6B5Ay30000666Ax1bAy6x1b2by65x0A3Ay6x5y3x05y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x56y2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000333Ax5Ay30056x1bA2bAy6x1bB6B5Ay30000666Ax1bAy6x1b2by65x0A3Ay6x5y3x05y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x56y2Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2441,7 +2451,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p1:2,6,10,14,p2:2",
-        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6A2Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax5A3A1bAy1b00001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6"
+        "encoded_sequence": "00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy61bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx2b3by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6A2Ax5Ay301Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax5A3A1bAy1b00001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6"
       }
     ]
   },
@@ -2469,7 +2479,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p2:2,7,12,17,22,27",
-        "reference_gspn": "0000330A3A6x1b2bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay302Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a361b2bx1bA6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a361b2bx1bA6Ay3Ax5A3y2x0A3A5x00550A5A6x01by1bAx2bAy603Ax6A5y30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "0000330A3A6x1b2bA3bAy3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by1bBx2bB6Ay302Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a361b2bx1bA6Ay3Ax5A3y2001Ax2Ay3x0A2Ay1Ax2A1y6a361b2bx1bA6Ay3Ax5A3y2x0A3A5x00550A5A6x01by1bAx2bAy603Ax6A5y30065x0A6Ay2x0A3Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -2497,7 +2507,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "0000330A3A5x06y1bBx2bB6Ay302Ax5A3y20000220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30000330A3A5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by65x0A3Ay6Ax1bA6A5Ay30056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6ax0A1A2y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay1"
+        "encoded_sequence": "0000330A3A5x06y1bBx2bB6Ay302Ax5A3y20000220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay30000330A3A5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by65x0A3Ay6Ax1bA6A5Ay30056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6ax0A1A2y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay1"
       }
     ]
   },
@@ -2525,7 +2535,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,6,10,14",
-        "reference_gspn": "00550066x0A1bA2by1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay3001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay3003b3b01bAx3bA2by2bx1by2bAx3bA3bA5bAy2bx0A3bAy1bAx2bA1by6003b3b01bAx3bA2by2bx1by2bAx3bA3bA5bAy2bx0A3bAy1bAx2bA1by6"
+        "encoded_sequence": "00550066x0A1bA2by1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay3001b2bx0A3bAy1bAx2bA1by6x1b2by1bBx2bB6Ay5x0A3Ay6x1bB6B5Ay3003b3b01bAx3bA2by2bx1by2bAx3bA3bA5bAy2bx0A3bAy1bAx2bA1by6003b3b01bAx3bA2by2bx1by2bAx3bA3bA5bAy2bx0A3bAy1bAx2bA1by6"
       }
     ]
   },
@@ -2553,7 +2563,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00003b3b3bAx2bAy1bx2b3by3bAx5bAy2bx0A3bAy1bAx2bA1by6006Ax5Ay3x6A1bAy1bx6A2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx02bA3bAy2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "00003b3b3bAx2bAy1bx2b3by3bAx5bAy2bx0A3bAy1bAx2bA1by6006Ax5Ay3x6A1bAy1bx6A2bAy1bx02by1bBx2bB6Ay303Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx02bA3bAy2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2581,7 +2591,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "0000660A6Bx1bBy5x06y66x0A5Ay506x01by001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay301Ax2A1y6ax1A2A3y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay10056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000660A6Bx1bBy5x06y66x0A5Ay506x01by001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay301Ax2A1y6ax1A2A3y00660A1bA2bx03by1bBx2bB6Ay303Ax5A3A2Ay10056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2609,7 +2619,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00003b3b3bAx2bAy1bx02by1bAx6Ay303Ax5A3y2001b2bx0A3bAy1bAx2bA1by6002Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx02by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y2005Ax6Ay303Ax5A3A2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay3001bA3bA2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "00003b3b3bAx2bAy1bx02by1bAx6Ay303Ax5A3y2001b2bx0A3bAy1bAx2bA1by6002Ax5Ay301Ax2A1y6a00003b3b3bAx2bAy1bx02by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y2005Ax6Ay303Ax5A3A2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6ax0A1A2y00220A2A3x05y66x1bA2bAy6Ax1bA6A5Ay3001bA3bA2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2637,7 +2647,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,6,10,14,18,22",
-        "reference_gspn": "0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y5x03by3b3b01bAx3bA5bB3bB2bAy1b00001b1b1bAx2bAy1bx06y66x0A1bAy1bx6A2bAy2b001bBx2bB6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000660A6A1bx02by3b3b01bAx3bA2by2bx1by06Ax1bAy2bx0A3bAy1bAx2bA6y5x03by3b3b01bAx3bA5bB3bB2bAy1b00001b1b1bAx2bAy1bx06y66x0A1bAy1bx6A2bAy2b001bBx2bB6Ay303x5B3B2Ay10035x0A6Ay3Ax5A3y20061bx2bA3bAy3bx0A5bAy2bx03by1bBx2bB6Ay303x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2665,7 +2675,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00001b1b1bAx2bAy1bx06y66x0A1bAy1bx6A2bAy2b00001b1b3bBx2bB1bB6By3001Ax2Ay301Ax2A1y6a0061bx2bA3bAy3b0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay303Ax5A3A2Ay1x0A2A3y00660A1bA2bx03by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "00001b1b1bAx2bAy1bx06y66x0A1bAy1bx6A2bAy2b00001b1b3bBx2bB1bB6By3001Ax2Ay301Ax2A1y6a0061bx2bA3bAy3b0A5bAy2bx03by1bBx2bB6Ay303Ax5A3A2Ay10000333Ax5Ay2003Ax5Ay303Ax5A3A2Ay1x0A2A3y00660A1bA2bx03by2bAx1bAy6Ax1bA2bB1bB6Ay3Ax5A3y20056x1bA2bAy6x1bB6B5Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2693,7 +2703,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "p1:2,6,10,14,18,22",
-        "sequence_gspn": "003b2b01bAx2bA6y5050503x2A5Ay5x06y23x2y3x5y601bx6y5x0A3Ay6x1bA5Ay3002202x6y603x5y3x0A2Ay5x0A3Ay20061bx2by03b2b01bx6y306Ax5A3A2Ay100003Ax2Ay356x1b2by65x0A3Ay5x0A6Ay30065x0A6Ay2x1A6Ay103x2A1Ay2x0A3Ay1Ax2A1y6a"
+        "encoded_sequence": "003b2b01bAx2bA6y5050503x2A5Ay5x06y23x2y3x5y601bx6y5x0A3Ay6x1bA5Ay3002202x6y603x5y3x0A2Ay5x0A3Ay20061bx2by03b2b01bx6y306Ax5A3A2Ay100003Ax2Ay356x1b2by65x0A3Ay5x0A6Ay30065x0A6Ay2x1A6Ay103x2A1Ay2x0A3Ay1Ax2A1y6a"
       }
     ]
   },
@@ -2721,7 +2731,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2-7",
-        "reference_gspn": "00001b1b0A1bA1b001b1bx0A6Ay6x1bA2bAy1b001b2bx0A3bAy1bx2bA6Ay5x3y03b3b01bAx3bA2by2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ay30000660A1bA1bx02by1bAx6Ay303Ax5A3y20012x0A3Ay1Ax2A1y6a0035x0A6Ay3Ax5A3y2"
+        "encoded_sequence": "00001b1b0A1bA1b001b1bx0A6Ay6x1bA2bAy1b001b2bx0A3bAy1bx2bA6Ay5x3y03b3b01bAx3bA2by2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by600003b3b3bAx2bAy1bx02by65x0A3Ay6x1bB6B5Ay30000660A1bA1bx02by1bAx6Ay303Ax5A3y20012x0A3Ay1Ax2A1y6a0035x0A6Ay3Ax5A3y2"
       }
     ]
   },
@@ -2749,7 +2759,7 @@
         "encoding": "GSPN",
         "dataset_name": "35_GERONGAN_SM_DSET",
         "lines": "2,10,18,26",
-        "reference_gspn": "0000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1x02by1bBx2bB6Ay3x0A5Ay2Ax5A3y20000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by600003b3b3bBx5bB2bAy1x02by1bBx2bB6Ay3x0A5Ay2Ax5A3y20000660A6Bx1bBy5x06y1b2bx0A3bAy1bAx2bA1by6001b2bx1bA6Ay3Ax5A3y2003Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2775,6 +2785,7 @@
       {
         "author": "10.1109/ACCESS.2024.3457880",
         "dataset_name": "QAP_DSET",
+        "encoding": "QAP",
         "lines": "5,6",
         "numeric_seq": [1, 5, 1, 2, 1, 3, 1, 6, 1, 6, 1, 2, 1, 3, 1, 5]
       }
@@ -2803,6 +2814,7 @@
         "author": "10.1109/ACCESS.2024.3457880",
         "lines": "5-8",
         "dataset_name": "QAP_DSET",
+        "encoding": "QAP",
         "numeric_seq": [6, 5, 6, 1, 3, 2, 6, 5, 6, 5, 6, 1, 3, 2, 6, 5, 6, 3, 2, 1, 5, 3, 2, 1, 5, 5, 6, 5, 6, 1, 6, 5]
       }
     ]
@@ -2830,6 +2842,7 @@
         "author": "10.1109/ACCESS.2024.3457880",
         "lines": "5-7",
         "dataset_name": "QAP_DSET",
+        "encoding": "QAP",
         "numeric_seq": [2, 3, 2, 1, 2, 3, 2, 1, 3, 5, 3, 2, 1, 6, 3, 5, 6, 6, 7, 6, 5, 3, 2, 3, 9, 9, 3, 5, 6, 1, 2, 1, 5, 6, 1, 2, 1, 6, 3, 5, 2, 4, 5, 4, 2, 1, 6, 5]
       }
     ]
@@ -2857,6 +2870,7 @@
         "author": "10.1109/ACCESS.2024.3457880",
         "lines": "5,6",
         "dataset_name": "QAP_DSET",
+        "encoding": "QAP",
         "numeric_seq": [3, 5, 3, 5, 3, 5, 2, 3, 6, 5, 6, 5, 6, 5, 3, 2]
       }
     ]
@@ -2884,6 +2898,7 @@
         "author": "10.1109/ACCESS.2024.3457880",
         "lines": "4,5",
         "dataset_name": "QAP_DSET",
+        "encoding": "QAP",
         "numeric_seq": [2, 3, 2, 3, 1, 2, 3, 2, 3, 5, 6, 5, 4, 2, 1, 6]
       }
     ]
@@ -2912,7 +2927,7 @@
         "encoding": "GSPN",
         "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p2:2,9,16,24,p3:2,8,14,20,26,p4:2,8",
-        "reference_gspn": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a000000006a123561bBx6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay100003b3b0A3bBx5bBy2003b3b01bA3bA2b2bx1by000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000030A3Bx5By2003Ax5Ay301Ax2A1y6a005Ax6Ay3005Ax6Ay3001bAx2bAy603x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "0000222Ax1Ay60066x1bA2bAy6x1bB6B5Ay300001b1b1bAx2bAy1b001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA1by6005Ax6Ay303x5B3B2Ay1x02A3Ay3Ax5Ay2x0A3Ay1Ax2A1y6a000000006a123561bBx6B5Ay30000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay100003b3b0A3bBx5bBy2003b3b01bA3bA2b2bx1by000660A1bA2bx0A1bB2bB3by1bBx2bB6Ay303x5B3B2Ay10000030A3Bx5By2003Ax5Ay301Ax2A1y6a005Ax6Ay3005Ax6Ay3001bAx2bAy603x5B3B2Ay10000330A3Bx5By2003Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -2940,7 +2955,7 @@
         "encoding": "GSPN",
         "dataset_name": "59_LADRANG_SM_DSET",
         "lines": "p1:2,7,12,17,22,27",
-        "reference_gspn": "006a1x2A3Ay3x0A5Ay2006a1x2A3Ay3x0A5Ay20056x1bA2bAy6x1bB6B5Ay3001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00330A3A5x06y66x0A5Ay5x6A1bAy6x5A5A5y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
+        "encoded_sequence": "006a1x2A3Ay3x0A5Ay2006a1x2A3Ay3x0A5Ay20056x1bA2bAy6x1bB6B5Ay3001b1bx0A6Ay6x1bA2bAy2bx1by0001b1b0A1bA2bx03by3bAx5bAy2bx0A3bAy1bAx2bA6y5x03y00330A3A5x06y66x0A5Ay5x6A1bAy6x5A5A5y00550A5A6x01by1bAx2bAy603Ax6A5y30021x0A2Ay2x1A3Ay3x05A6Ay2Ax5Ay301Ax2A1y6a"
       }
     ]
   },
@@ -3462,33 +3477,6 @@
     "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/Montro.pdf",
     "lines": "",
     "filename": "81af9e7e-0c26-4686-8174-7776392eac9d",
-    "identifier": {
-      "structure": "Gerongan",
-      "laras": "Slendro",
-      "pathet": "Manyura"
-    },
-    "notation_numeric_seq": "",
-    "notation_gspn_seq": "",
-    "accompaniment": {
-      "balungan": "",
-      "gerongan": "",
-      "bonang": "",
-      "gong": ""
-    },
-    "used_by": [
-      {
-        "author": "10.12720/jait.14.1.26-38",
-        "encoding": "GSPN",
-        "dataset_name": "59_LADRANG_SM_DSET",
-        "lines": ""
-      }
-    ]
-  },
-  {
-    "title": "Gerongan Ladrang Mugi Rahayu",
-    "dataset_url": "https://gamelanbvg.com/gendhing/pdf/gerongan/sm/MugiRahayu.pdf",
-    "lines": "",
-    "filename": "c0914788-6d9f-4d9a-8179-878e94af7a36",
     "identifier": {
       "structure": "Gerongan",
       "laras": "Slendro",

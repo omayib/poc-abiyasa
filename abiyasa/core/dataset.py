@@ -14,11 +14,24 @@ from ..extractors.font_parser import parse_pdf_font
 from ..extractors.line_extractor import extract_kepatihan_from_pdf
 from ..utils.downloader import download_gamelan_file
 
+# Pre-computed sequence keys checked per encoder when filter_dset is active.
+# If the matching used_by entry contains the key, the loader uses it directly
+# and skips PDF download/extraction.  Falls back to PDF if the key is absent.
+#
+#   GSPN encoder -> looks for 'encoded_sequence'  (ready-made GSPN string)
+#   QAP  encoder -> looks for 'numeric_seq'       (integer beat list)
+#
+# No dataset-name allowlist is needed — the presence of the key in the JSON
+# is the only gate, so this works for QAP_DSET, 35_GERONGAN_SM_DSET,
+# 59_LADRANG_SM_DSET, and any future dataset that stores pre-computed seqs.
+_GSPN_SEQ_KEY = 'encoded_sequence'
+_QAP_SEQ_KEY  = 'numeric_seq'
+
 
 class GamelanDataset:
     """
     Main class for loading and managing Gamelan music datasets.
-    
+
     This class handles:
     - Loading dataset metadata from JSON
     - Downloading PDF files
@@ -159,7 +172,7 @@ class GamelanDataset:
         limit: Optional[int] = None,
         verbose: bool = True,
         filter_dset: str = None
-    ) -> List[Dict[str, Any]]:
+    ) -> dict[str, list[Any] | dict[str, str | None | int] | Any] | list[Any]:
         """
         Load and encode gamelan dataset.
 
@@ -183,23 +196,73 @@ class GamelanDataset:
                 - metadata: Additional metadata from dataset
         """
         encoder_instance = self.get_encoder(encoder, notation_system)
+        is_gspn = isinstance(encoder_instance, GSPNEncoder)
+        is_qap  = isinstance(encoder_instance, QAPEncoder)
 
         results = []
         if filter_dset:
-            print(f"filter dset on")
+            if verbose:
+                print(f"[abiyasa] filter_dset='{filter_dset}' active")
             items = [item for item in self.metadata
-                     if any(usage.get('dataset_name') == filter_dset for usage in item.get('used_by', []))]
+                     if any(usage.get('dataset_name') == filter_dset
+                            for usage in item.get('used_by', []))]
         else:
             items = self.metadata[:limit] if limit else self.metadata
+
+        if limit is not None:
+            items = items[:limit]
+
         total = len(items)
 
         for idx, item in enumerate(items, 1):
-            # print(f"items==> \n{json.dumps(item, indent=4)}")
             if verbose:
                 print(f"\n[{idx}/{total}] Processing: {item['title']}")
 
             try:
-                result = self._process_item(item, encoder_instance, extract_pdf, verbose, dataset_name=filter_dset)
+                # Resolve the active used_by entry for this item (if any)
+                dataset_entry = None
+                if filter_dset:
+                    dataset_entry = next(
+                        (u for u in item.get('used_by', [])
+                         if u.get('dataset_name') == filter_dset),
+                        None
+                    )
+
+                # Routing: prefer pre-computed sequences from the JSON when
+                # filter_dset is active and the entry carries the right key.
+                # Fall back to PDF extraction when the key is absent.
+                #
+                #   GSPN + encoded_sequence present → _process_item_gspn_from_seq
+                #   QAP  + numeric_seq present       → _process_item_qap
+                #   anything else                    → _process_item  (PDF path)
+
+                print(f"is gspn>{is_gspn}")
+                print(f"encoder >{encoder_instance.name}")
+                if (is_gspn and filter_dset and dataset_entry is not None
+                        and dataset_entry.get(_GSPN_SEQ_KEY)):
+                    result = self._process_item_gspn_from_seq(
+                        item, encoder_instance, verbose,
+                        dataset_name=filter_dset
+                    )
+                elif (is_qap and filter_dset and dataset_entry is not None
+                        and dataset_entry.get(_QAP_SEQ_KEY)):
+                    result = self._process_item_qap(
+                        item, encoder_instance, verbose,
+                        dataset_name=filter_dset
+                    )
+                else:
+                    print(f"load no filter ")
+                    if is_qap:
+                        result = self._process_item_qap(
+                            item, encoder_instance,
+                            extract_pdf=extract_pdf,
+                            verbose=verbose,
+                            dataset_name=None,
+                        )
+                    if is_gspn:
+                        result = self._process_item(
+                            item, encoder_instance, extract_pdf, verbose
+                        )
                 results.append(result)
             except Exception as e:
                 if verbose:
@@ -209,8 +272,261 @@ class GamelanDataset:
 
         if verbose:
             print(f"\n✓ Successfully loaded {len(results)}/{total} items")
+        print(f"result appended {results}")
+        # For QAP encoder, always return the wrapped dict structure so callers
+        # get a consistent shape regardless of whether filter_dset was set.
+        if is_qap and any('qap' in r for r in results):
+            qap_dset = encoder_instance.encode_dataset(
+                [r['qap'] for r in results if 'qap' in r]
+            )['QAP_DSET']
+            if verbose:
+                print(f"  QAP_DSET ({len(qap_dset)} unique pairs): {qap_dset}")
+            return {
+                'compositions': results,
+                'QAP_DSET': qap_dset,
+                'meta': {
+                    'encoder':      encoder,
+                    'filter_dset':  filter_dset,
+                    'limit':        limit,
+                    'total_loaded': len(results),
+                    'reference':    '10.1109/ACCESS.2024.3457880',
+                }
+            }
 
         return results
+
+    def _process_item_gspn_from_seq(
+        self,
+        item: Dict[str, Any],
+        encoder: 'GSPNEncoder',
+        verbose: bool,
+        dataset_name: str,
+    ) -> Dict[str, Any]:
+        """
+        Process a single dataset item using GSPN encoding from ``numeric_seq``.
+
+        This path is taken when encoder='GSPN', filter_dset is active, and
+        the matching ``used_by`` entry contains an ``encoded_sequence`` key
+        (a pre-computed GSPN string).  No PDF download or extraction occurs.
+
+        The ``encoded_sequence`` value is a ready-made GSPN string stored
+        directly in the dataset JSON (e.g. for 35_GERONGAN_SM_DSET and
+        59_LADRANG_SM_DSET).  It is stored as-is into ``parts['lines']``
+        without re-encoding, mirroring the structure that ``_process_item``
+        would produce so all downstream code remains uniform.
+
+        Args:
+            item:         Dataset item metadata dict.
+            encoder:      GSPNEncoder instance (used only for metadata).
+            verbose:      Whether to print progress.
+            dataset_name: The dataset_name to match in used_by.
+
+        Returns:
+            Dict with keys:
+                title      : str
+                filename   : str
+                pdf_path   : str   (empty — no PDF used)
+                parts      : {'lines': list[dict]}  one entry per line in the
+                             encoded_sequence value.  Each dict has keys:
+                                 page     : None
+                                 line     : int   (1-indexed)
+                                 original : str   (raw encoded_sequence value)
+                                 encoded  : str   (same — already GSPN)
+                metadata   : dict  (identifier, used_by, dataset_entry)
+        """
+        # ── 1. Resolve the matching used_by entry ─────────────────────
+        dataset_entry = next(
+            (u for u in item.get('used_by', [])
+             if u.get('dataset_name') == dataset_name),
+            None
+        )
+        if dataset_entry is None:
+            raise ValueError(
+                f"No 'used_by' entry with dataset_name='{dataset_name}' "
+                f"found for item '{item['title']}'"
+            )
+
+        encoded_sequence = dataset_entry.get(_GSPN_SEQ_KEY)
+        if not encoded_sequence:
+            raise ValueError(
+                f"'{_GSPN_SEQ_KEY}' is missing or empty in used_by entry "
+                f"for '{item['title']}' (dataset_name='{dataset_name}')"
+            )
+
+        # ── 2. Store the pre-computed sequence ────────────────────────
+        # encoded_sequence may be a plain GSPN string or a list of strings
+        # (one per notation line).  Normalise to a list so the output shape
+        # is always consistent with what _process_item returns.
+        if isinstance(encoded_sequence, list):
+            seq_lines = encoded_sequence
+        else:
+            seq_lines = [encoded_sequence]
+
+        encoded_lines: List[Dict[str, Any]] = []
+        for line_idx, seq_str in enumerate(seq_lines, start=1):
+            encoded_lines.append({
+                'page':     None,
+                'line':     line_idx,
+                'original': seq_str,
+                'encoded':  seq_str,
+            })
+
+        if verbose:
+            total_chars = sum(len(d['encoded']) for d in encoded_lines)
+            print(f"  ✓ GSPN (from {_GSPN_SEQ_KEY}, "
+                  f"{len(encoded_lines)} line(s), {total_chars} chars)")
+
+        return {
+            'title':    item['title'],
+            'filename': item.get('filename', ''),
+            'pdf_path': '',
+            'parts': {
+                'lines': encoded_lines,
+            },
+            'metadata': {
+                'identifier':    item.get('identifier', {}),
+                'used_by':       item.get('used_by', []),
+                'dataset_entry': dataset_entry,
+            },
+        }
+
+    def _process_item_qap(
+        self,
+        item: Dict[str, Any],
+        encoder: 'QAPEncoder',
+        extract_pdf: bool = True,
+        verbose: bool = True,
+        dataset_name: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """
+        Process a single dataset item using the QAP encoder.
+
+        Two paths depending on whether ``dataset_name`` is provided:
+
+        With dataset_name (filter_dset active):
+            Reads ``numeric_seq`` directly from the matching ``used_by`` entry
+            in the JSON and runs the full QAP pipeline.  No PDF is needed.
+
+        Without dataset_name (no filter_dset):
+            Falls through to ``_process_item`` for PDF download + extraction,
+            then re-encodes each extracted notation line through the QAP
+            encoder (notation string → beats → QAP pipeline) and attaches the
+            ``qap`` key to the result.
+
+        Args:
+            item:         Dataset item metadata dict.
+            encoder:      QAPEncoder instance.
+            extract_pdf:  Whether to extract notation from PDF (no-filter path).
+            verbose:      Whether to print progress.
+            dataset_name: The dataset_name to match in used_by, or None.
+
+        Returns:
+            Same structure as ``_process_item``:
+                title     : str
+                filename  : str
+                pdf_path  : str   (empty when dataset_name provided)
+                metadata  : dict  (identifier, used_by, dataset_entry)
+                parts     : {'lines': list[dict]}
+                qap       : dict  — beats, pairs, X1–X6, bars, lines, structure
+        """
+        # ── Path A: dataset_name provided → read numeric_seq from JSON ────────
+        if dataset_name:
+            dataset_entry = next(
+                (u for u in item.get('used_by', [])
+                 if u.get('dataset_name') == dataset_name),
+                None
+            )
+            if dataset_entry is None:
+                raise ValueError(
+                    f"No 'used_by' entry with dataset_name='{dataset_name}' "
+                    f"found for item '{item['title']}'"
+                )
+
+            numeric_seq = dataset_entry.get(_QAP_SEQ_KEY)
+            if not numeric_seq:
+                raise ValueError(
+                    f"'{_QAP_SEQ_KEY}' is missing or empty in used_by entry "
+                    f"for '{item['title']}' (dataset_name='{dataset_name}')"
+                )
+
+            # Run full QAP pipeline on the pre-extracted integer beat list
+            qap_result = encoder.encode_sequence(numeric_seq)
+
+            # Build parts['lines'] — one entry per beat, same shape as
+            # _process_item's per-line dicts so downstream code is uniform.
+            #   original = raw beat integer (str)
+            #   encoded  = QAP pair shared by the two beats in that pair (str)
+            pairs = qap_result['pairs']
+            beats = qap_result['beats']
+            lines_out: List[Dict[str, Any]] = []
+            for beat_idx, beat_val in enumerate(beats):
+                pair_val = pairs[beat_idx // 2] if beat_idx // 2 < len(pairs) else None
+                lines_out.append({
+                    'page':     None,
+                    'line':     beat_idx + 1,
+                    'original': str(beat_val),
+                    'encoded':  str(pair_val) if pair_val is not None else '',
+                })
+
+            source   = dataset_entry if dataset_entry.get('filename') else item
+            filename = source.get('filename') or item.get('filename', '')
+
+            result = {
+                'title':    item['title'],
+                'filename': filename,
+                'pdf_path': '',
+                'metadata': {
+                    'identifier':    item.get('identifier', {}),
+                    'used_by':       item.get('used_by', []),
+                    'dataset_entry': dataset_entry,
+                },
+                'parts': {'lines': lines_out},
+                'qap':   qap_result,
+            }
+
+        # ── Path B: no dataset_name → PDF extraction + QAP re-encode ─────────
+        else:
+            # Use the standard _process_item to handle PDF download + extraction.
+            # This gives us parts['lines'] with 'original' notation strings.
+            result = self._process_item(
+                item, encoder, extract_pdf, verbose, dataset_name=None
+            )
+
+            # Collect all notation lines from every part and encode through QAP.
+            # Each 'original' string is a raw notation line from the PDF
+            # (Balungan or Kepatihan characters) — QAPEncoder._notation_to_beats
+            # maps them to integer beats before running the pipeline.
+            all_beats: List[int] = []
+            for part_lines in result.get('parts', {}).values():
+                for line_dict in part_lines:
+                    original = line_dict.get('original', '')
+                    beats = encoder._notation_to_beats(original)
+                    all_beats.extend(beats)
+
+            if all_beats:
+                qap_result = encoder.encode_sequence(all_beats)
+                result['qap'] = qap_result
+            else:
+                warnings.warn(
+                    f"No beats extracted from PDF lines for '{item['title']}'; "
+                    "'qap' key will be absent from result."
+                )
+
+        if verbose and 'qap' in result:
+            qap_result = result['qap']
+            s = qap_result['structure']
+            print(f"  ✓ QAP | beats={s['I']}, pairs={s['II']}, "
+                  f"bars={s['III']}, lines={s['IV']}")
+            print(f"  pairs : {qap_result['pairs']}")
+            print(f"  X1    : {qap_result['X1']}")
+            print(f"  X2    : {qap_result['X2']}")
+            print(f"  X3    : {qap_result['X3']}")
+            print(f"  X4    : {qap_result['X4']}")
+            print(f"  X5    : {qap_result['X5']}")
+            print(f"  X6    : begin={qap_result['X6']['begin']}, "
+                  f"end={qap_result['X6']['end']}")
+
+        return result
 
     def _process_item(
         self,
@@ -338,11 +654,14 @@ class GamelanDataset:
                     continue
 
                 encoded_data: List[Dict[str, Any]] = []
+                print(f"encoder {encoder.name}")
                 for page in extraction.get('pages', []):
                     for line_no, content in page.get('lines', []):
+
+                        print(f"content {content}")
                         try:
                             encoded = encoder.encode(content)
-                            # print(f"content {content }, encoded {encoded}")
+                            print(f"encoded {encoded}")
                             encoded_data.append({
                                 'page': page.get('page_number'),
                                 'line': line_no,
