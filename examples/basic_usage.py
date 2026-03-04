@@ -244,6 +244,12 @@ def example_qap_encoding():
         s = c['qap']['structure']
         print(f"  [{c['title']}]  beats={s['I']}, pairs={s['II']}, "
               f"bars={s['III']}, lines={s['IV']}")
+def example_ovens_encoding():
+    res = abiyasa.load_data("OVENS",limit=3,verbose=False,filter_dset="OVENS_DSET")
+
+    for item in res['compositions']:
+        print(f"  [{item['title']}]  ovens={item['ovens']} ")
+
 
 def main():
     """Run all examples."""
@@ -254,9 +260,10 @@ def main():
         #example_basic_usage()
         # example_with_kepatihan()
         # example_metadata_only()
-        # example_process_encoded_data()
+        example_process_encoded_data()
 
-        example_qap_encoding()
+        #example_qap_encoding()
+        #example_ovens_encoding()
         # example_dataset_class()
         #example_encoder_directly()
         # example_dataset_info()

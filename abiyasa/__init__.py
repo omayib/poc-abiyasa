@@ -29,8 +29,10 @@ __all__ = [
     'BaseEncoder',
     'GSPNEncoder',
     'QAPEncoder',
+    'OVENSEncoder'
 ]
 
+from .encoders.ovens import OVENSEncoder
 
 # Global dataset instance for convenience
 _default_dataset = None

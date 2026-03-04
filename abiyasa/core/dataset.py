@@ -10,6 +10,7 @@ from typing import List, Dict, Any, Optional
 import warnings
 
 from ..encoders import BaseEncoder, GSPNEncoder, QAPEncoder
+from ..encoders.ovens import OVENSEncoder
 from ..extractors.font_parser import parse_pdf_font
 from ..extractors.line_extractor import extract_kepatihan_from_pdf
 from ..utils.downloader import download_gamelan_file
@@ -26,6 +27,7 @@ from ..utils.downloader import download_gamelan_file
 # 59_LADRANG_SM_DSET, and any future dataset that stores pre-computed seqs.
 _GSPN_SEQ_KEY = 'encoded_sequence'
 _QAP_SEQ_KEY  = 'numeric_seq'
+_OVENS_SEQ_KEY  = 'numeric_seq'
 
 
 class GamelanDataset:
@@ -108,6 +110,7 @@ class GamelanDataset:
         self._encoder_registry = {
             'GSPN': GSPNEncoder,
             'QAP': QAPEncoder,
+            'OVENS':OVENSEncoder
         }
 
     def _load_metadata(self) -> List[Dict[str, Any]]:
@@ -198,6 +201,7 @@ class GamelanDataset:
         encoder_instance = self.get_encoder(encoder, notation_system)
         is_gspn = isinstance(encoder_instance, GSPNEncoder)
         is_qap  = isinstance(encoder_instance, QAPEncoder)
+        is_ovens = isinstance(encoder_instance, OVENSEncoder)
 
         results = []
         if filter_dset:
@@ -236,8 +240,7 @@ class GamelanDataset:
                 #   QAP  + numeric_seq present       → _process_item_qap
                 #   anything else                    → _process_item  (PDF path)
 
-                print(f"is gspn>{is_gspn}")
-                print(f"encoder >{encoder_instance.name}")
+                # ── Routing: prefer pre-computed sequences when available ──
                 if (is_gspn and filter_dset and dataset_entry is not None
                         and dataset_entry.get(_GSPN_SEQ_KEY)):
                     result = self._process_item_gspn_from_seq(
@@ -250,19 +253,30 @@ class GamelanDataset:
                         item, encoder_instance, verbose,
                         dataset_name=filter_dset
                     )
+                elif (is_ovens and filter_dset and dataset_entry is not None
+                        and dataset_entry.get(_OVENS_SEQ_KEY)):
+                    result = self._process_item_ovens(
+                        item, encoder_instance, verbose,
+                        dataset_name=filter_dset
+                    )
+                elif is_qap:
+                    result = self._process_item_qap(
+                        item, encoder_instance,
+                        extract_pdf=extract_pdf,
+                        verbose=verbose,
+                        dataset_name=None,
+                    )
+                elif is_ovens:
+                    result = self._process_item_ovens(
+                        item, encoder_instance, verbose,
+                        dataset_name=filter_dset,
+                    )
                 else:
-                    print(f"load no filter ")
-                    if is_qap:
-                        result = self._process_item_qap(
-                            item, encoder_instance,
-                            extract_pdf=extract_pdf,
-                            verbose=verbose,
-                            dataset_name=None,
-                        )
-                    if is_gspn:
-                        result = self._process_item(
-                            item, encoder_instance, extract_pdf, verbose
-                        )
+                    # Default path: GSPN or any other encoder via PDF extraction
+                    result = self._process_item(
+                        item, encoder_instance, extract_pdf, verbose,
+                        dataset_name=filter_dset,
+                    )
                 results.append(result)
             except Exception as e:
                 if verbose:
@@ -272,7 +286,6 @@ class GamelanDataset:
 
         if verbose:
             print(f"\n✓ Successfully loaded {len(results)}/{total} items")
-        print(f"result appended {results}")
         # For QAP encoder, always return the wrapped dict structure so callers
         # get a consistent shape regardless of whether filter_dset was set.
         if is_qap and any('qap' in r for r in results):
@@ -290,6 +303,27 @@ class GamelanDataset:
                     'limit':        limit,
                     'total_loaded': len(results),
                     'reference':    '10.1109/ACCESS.2024.3457880',
+                }
+            }
+
+        # For OVENS encoder, return a wrapped dict with the flat token sequence
+        # concatenated across all compositions alongside the per-item results.
+        if is_ovens and any('ovens' in r for r in results):
+            all_tokens = []
+            for r in results:
+                if 'ovens' in r:
+                    all_tokens.extend(r['ovens'].split(','))
+            ovens_dset = ','.join(all_tokens)
+            if verbose:
+                print(f"  OVENS_DSET ({len(all_tokens)} tokens total)")
+            return {
+                'compositions': results,
+                'OVENS_DSET': ovens_dset,
+                'meta': {
+                    'encoder':      encoder,
+                    'filter_dset':  filter_dset,
+                    'limit':        limit,
+                    'total_loaded': len(results),
                 }
             }
 
@@ -616,7 +650,6 @@ class GamelanDataset:
         # 4. Extract & encode each part defined for this dataset
         # ------------------------------------------------------------------
         if extract_pdf:
-            print(f"extract_pdf {extract_pdf}")
             # Detect font type once per PDF — applies to all parts
             font_info = parse_pdf_font(str(pdf_path))
             if font_info and font_info.get('font_type') in ['kepatihan', 'balungan']:
@@ -654,14 +687,11 @@ class GamelanDataset:
                     continue
 
                 encoded_data: List[Dict[str, Any]] = []
-                print(f"encoder {encoder.name}")
                 for page in extraction.get('pages', []):
                     for line_no, content in page.get('lines', []):
 
-                        print(f"content {content}")
                         try:
                             encoded = encoder.encode(content)
-                            print(f"encoded {encoded}")
                             encoded_data.append({
                                 'page': page.get('page_number'),
                                 'line': line_no,
@@ -685,6 +715,165 @@ class GamelanDataset:
                     print(f"  ✓ Encoded {len(encoded_data)} lines for part '{key}'")
 
             result['parts'] = parts
+
+        return result
+
+    def _process_item_ovens(
+        self,
+        item: Dict[str, Any],
+        encoder: 'OVENSEncoder',
+        verbose: bool,
+        dataset_name: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """
+        Process a single dataset item using the OVENS encoder.
+
+        Two paths depending on whether ``dataset_name`` is provided:
+
+        With dataset_name (filter_dset active):
+            Reads ``numeric_seq`` directly from the matching ``used_by`` entry
+            in the JSON and runs :meth:`OVENSEncoder.encode` on the integer
+            beat list.  No PDF download or extraction occurs.
+
+        Without dataset_name (no filter_dset):
+            Falls through to ``_process_item`` for PDF download + extraction,
+            then re-encodes each extracted notation line through the OVENS
+            encoder and attaches the ``ovens`` key to the result.
+
+        Args:
+            item:         Dataset item metadata dict.
+            encoder:      OVENSEncoder instance.
+            verbose:      Whether to print progress.
+            dataset_name: The dataset_name to match in used_by, or None.
+
+        Returns:
+            Dict with keys:
+                title    : str
+                filename : str
+                pdf_path : str   (empty when dataset_name provided)
+                metadata : dict  (identifier, used_by, dataset_entry)
+                parts    : {'lines': list[dict]}
+                ovens    : str   — full OVENS-encoded comma-separated sequence
+        """
+        # ── Path A: dataset_name provided → read numeric_seq from JSON ─────
+        if dataset_name:
+            dataset_entry = next(
+                (u for u in item.get('used_by', [])
+                 if u.get('dataset_name') == dataset_name),
+                None
+            )
+            if dataset_entry is None:
+                raise ValueError(
+                    f"No 'used_by' entry with dataset_name='{dataset_name}' "
+                    f"found for item '{item['title']}'"
+                )
+
+            numeric_seq = dataset_entry.get(_OVENS_SEQ_KEY)
+            if not numeric_seq:
+                raise ValueError(
+                    f"'{_OVENS_SEQ_KEY}' is missing or empty in used_by entry "
+                    f"for '{item['title']}' (dataset_name='{dataset_name}')"
+                )
+
+            # Normalise numeric_seq to a plain list of ints.
+            # In the JSON it is always a list, but guard against a
+            # comma-separated string just in case.
+            if isinstance(numeric_seq, str):
+                note_list = [int(n) for n in numeric_seq.split(',') if n.strip()]
+            else:
+                note_list = [int(n) for n in numeric_seq]
+
+            # Encode the whole sequence at once, then split back into
+            # individual tokens — one token per note in note_list.
+            ovens_encoded = encoder.encode(note_list)
+            tokens = ovens_encoded.split(',')
+
+            # Build parts['lines'] by zipping note_list with tokens so each
+            # entry corresponds to exactly one note value, not one CSV chunk.
+            lines_out: List[Dict[str, Any]] = []
+            for note_idx, (note_val, token) in enumerate(zip(note_list, tokens)):
+                lines_out.append({
+                    'page':     None,
+                    'line':     note_idx + 1,
+                    'original': str(note_val),
+                    'encoded':  token,
+                })
+
+            source   = dataset_entry if dataset_entry.get('filename') else item
+            filename = source.get('filename') or item.get('filename', '')
+
+            if verbose:
+                print(f"  ✓ OVENS | {len(tokens)} tokens from '{_OVENS_SEQ_KEY}'")
+
+            return {
+                'title':    item['title'],
+                'filename': filename,
+                'pdf_path': '',
+                'metadata': {
+                    'identifier':    item.get('identifier', {}),
+                    'used_by':       item.get('used_by', []),
+                    'dataset_entry': dataset_entry,
+                },
+                'parts': {'lines': lines_out},
+                'ovens': ovens_encoded,
+            }
+
+        # ── Path B: no dataset_name → PDF extraction + OVENS re-encode ─────
+        result = self._process_item(
+            item, encoder, extract_pdf=True, verbose=verbose,
+            dataset_name=None
+        )
+
+        # `_process_item` stores raw notation strings (Balungan/Kepatihan
+        # characters such as "H I J K L") in each line_dict['original'].
+        # These are NOT integers — we must map each character to its pitch
+        # number using _get_note_ovens, which consults the active notation
+        # system's MAP (BALUNGAN_SYSTEM / KEPATIHAN_SYSTEM) and returns a
+        # (note_num_str, octave_str) tuple.  We collect only the note_num
+        # part as an int, skipping spaces and unknown chars (0 = rest for '-'
+        # and '.', which are already handled by the map).
+        all_notes: List[int] = []
+        for part_lines in result.get('parts', {}).values():
+            for line_dict in part_lines:
+                original = line_dict.get('original', '')
+                for char in original:
+                    if char == ' ':
+                        continue
+                    if encoder._is_note_char(char):
+                        note_num_str, _ = encoder._get_note_ovens(char)
+                        try:
+                            all_notes.append(int(note_num_str))
+                        except ValueError:
+                            pass
+                    elif encoder._is_rest_char(char):
+                        # Rest characters ('-' / '.') map to 0
+                        all_notes.append(0)
+                    # Unknown chars (gong markers, brackets, etc.) are skipped
+
+        if all_notes:
+            ovens_encoded = encoder.encode(all_notes)
+            tokens = ovens_encoded.split(',')
+
+            # Re-annotate each line_dict with per-note encoded tokens so
+            # parts['lines'] has one entry per note, consistent with Path A.
+            flat_lines: List[Dict[str, Any]] = []
+            for note_idx, (note_val, token) in enumerate(zip(all_notes, tokens)):
+                flat_lines.append({
+                    'page':     None,
+                    'line':     note_idx + 1,
+                    'original': str(note_val),
+                    'encoded':  token,
+                })
+            result['parts']['lines'] = flat_lines
+            result['ovens'] = ovens_encoded
+
+            if verbose:
+                print(f"  ✓ OVENS | {len(tokens)} tokens (PDF path)")
+        else:
+            warnings.warn(
+                f"No notes extracted from PDF lines for '{item['title']}'; "
+                "'ovens' key will be absent from result."
+            )
 
         return result
 
