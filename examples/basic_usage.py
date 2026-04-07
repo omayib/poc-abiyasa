@@ -249,6 +249,10 @@ def example_ovens_encoding():
 
     for item in res['compositions']:
         print(f"  [{item['title']}]  ovens={item['ovens']} ")
+def example_boruss_encoding():
+    res = abiyasa.load_data("BORUSS",limit=3,verbose=False,filter_dset="BORUSS_DSET")
+
+    print(f"result : {res}")
 
 
 def main():
@@ -260,8 +264,8 @@ def main():
         #example_basic_usage()
         # example_with_kepatihan()
         # example_metadata_only()
-        example_process_encoded_data()
-
+        #example_process_encoded_data()
+        example_boruss_encoding()
         #example_qap_encoding()
         #example_ovens_encoding()
         # example_dataset_class()

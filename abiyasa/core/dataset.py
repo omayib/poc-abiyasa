@@ -1,6 +1,7 @@
 """
 Core dataset loading and management functionality.
 """
+from __future__ import annotations
 
 import json
 import os
@@ -9,7 +10,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 import warnings
 
-from ..encoders import BaseEncoder, GSPNEncoder, QAPEncoder
+from ..encoders import BaseEncoder, GSPNEncoder, QAPEncoder, BORUSSEncoder
 from ..encoders.ovens import OVENSEncoder
 from ..extractors.font_parser import parse_pdf_font
 from ..extractors.line_extractor import extract_kepatihan_from_pdf
@@ -110,7 +111,8 @@ class GamelanDataset:
         self._encoder_registry = {
             'GSPN': GSPNEncoder,
             'QAP': QAPEncoder,
-            'OVENS':OVENSEncoder
+            'OVENS':OVENSEncoder,
+            'BORUSS':BORUSSEncoder
         }
 
     def _load_metadata(self) -> List[Dict[str, Any]]:
@@ -202,6 +204,7 @@ class GamelanDataset:
         is_gspn = isinstance(encoder_instance, GSPNEncoder)
         is_qap  = isinstance(encoder_instance, QAPEncoder)
         is_ovens = isinstance(encoder_instance, OVENSEncoder)
+        is_boruss=isinstance(encoder_instance,BORUSSEncoder)
 
         results = []
         if filter_dset:
@@ -217,6 +220,7 @@ class GamelanDataset:
             items = items[:limit]
 
         total = len(items)
+        print(f"item: {total}")
 
         for idx, item in enumerate(items, 1):
             if verbose:
@@ -620,6 +624,7 @@ class GamelanDataset:
         # 2. Download PDF if needed
         # ------------------------------------------------------------------
         pdf_path = self.cache_dir / filename
+        print(f'pdf path {pdf_path}')
 
         if not pdf_path.exists() and self.auto_download:
             if verbose:
@@ -689,6 +694,7 @@ class GamelanDataset:
                 encoded_data: List[Dict[str, Any]] = []
                 for page in extraction.get('pages', []):
                     for line_no, content in page.get('lines', []):
+                        print(f"line {line_no}, content: {content}")
 
                         try:
                             encoded = encoder.encode(content)
